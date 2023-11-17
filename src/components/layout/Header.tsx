@@ -22,6 +22,11 @@ import { usePathname } from "next/navigation";
 import { Poppins } from "next/font/google";
 import Cart from "../common/Cart/Cart";
 
+interface CartItem {
+  productName: string;
+  quantity: number;
+}
+
 const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
