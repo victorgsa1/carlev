@@ -14,11 +14,15 @@ interface CartProps {
 
 const Cart: React.FC<CartProps> = ({ isOpen, onClose, cart, updateCart }) => {
   // Adiciona um efeito para observar alterações no localStorage
-  useEffect(() => {
-    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+useEffect(() => {
+  // Adiciona um efeito para observar alterações no localStorage
+  const storedCartString = localStorage.getItem("cart");
+  if (storedCartString) {
+    const storedCart = JSON.parse(storedCartString) || [];
     updateCart(storedCart);
-  }, []); // O array de dependências vazio faz com que o efeito seja executado apenas uma vez, ao montar o componente
-
+  }
+}, []);
+  
   const removeItem = (index: number) => {
     const updatedCartItems = [...cart];
     updatedCartItems.splice(index, 1);
