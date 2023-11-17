@@ -2,15 +2,21 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-import MyListbox from "../Inputs/InputSelect";
+
+interface cartItem {
+  productName: string;
+  quantity: number;
+}
 
 const FeedFeaturedItem = () => {
-  const [selectedOption, setSelectedOption] = useState("");
-  const [cart, setCart] = useState([]); // Estado para armazenar a opção selecionada
+  const [selectedOption, setSelectedOption] = useState<string>("");
+  const [cart, setCart] = useState<{ productName: string; quantity: number }[]>(
+    []
+  );
 
- const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-   setSelectedOption(event.target.value);
- };
+  const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedOption(event.target.value);
+  };
 
   const handleAddToCart = () => {
     if (!selectedOption) {
