@@ -38,7 +38,7 @@ const servicos = [
 ];
 
 export default function Header() {
-  const [cart, setCart] = useState();
+  const [cart, setCart] = useState(<CartItem[]>([]));
   const [isOpen, setIsOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const pathname = usePathname();
@@ -72,6 +72,10 @@ export default function Header() {
 
   const toggleCart = () => {
     setIsCartOpen(!isCartOpen);
+  };
+
+  const updateCart = (newCart: CartItem[]) => {
+    setCart(newCart);
   };
 
   return (
