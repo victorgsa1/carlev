@@ -38,7 +38,7 @@ const servicos = [
 ];
 
 export default function Header() {
-  const [cart, setCart] = useState(<CartItem[]>([]));
+  const [cart, setCart] = useState<CartItem[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const pathname = usePathname();
