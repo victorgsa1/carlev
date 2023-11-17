@@ -2,26 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* aa */
+
+section {
+    @apply py-10 md:py-16 lg:px-20 px-5;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.container {
+    @apply mx-auto;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.row {
+    @apply max-w-7xl mx-auto;
+}
+
+.btn-primary {
+    @apply py-4 px-5 w-48 block text-white shadow-lg text-lg text-center font-bold
+}
+
+.text-countup {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #6275500f;
+    position: absolute;
+    font-size: 6rem;
+    /* 36px */
+    text-align: center;
+    font-weight: bold;
+    line-height: 2.5rem;
+    /* 40px */
+    top: -3.5rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
 }
