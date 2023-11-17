@@ -8,9 +8,9 @@ const FeedFeaturedItem = () => {
   const [selectedOption, setSelectedOption] = useState("");
   const [cart, setCart] = useState([]); // Estado para armazenar a opção selecionada
 
-  const handleSelectChange = (event) => {
-    setSelectedOption(event.target.value);
-  };
+ const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+   setSelectedOption(event.target.value);
+ };
 
   const handleAddToCart = () => {
     if (!selectedOption) {
