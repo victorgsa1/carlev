@@ -55,7 +55,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
     <div
       className={`cart ${
         isOpen ? "block" : "hidden"
-      } bg-brand-100 text-white shadow-lg p-4 mt-20 absolute right-0 rounded-lg`}
+      } bg-brand-100 text-white shadow-lg p-4 mt-20 absolute top-0 right-0 rounded-lg`}
     >
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl">Carrinho</h2>

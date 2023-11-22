@@ -207,13 +207,13 @@ export default function Header() {
                         </Link>
                       )
                     )}
-                    {/* 
-                    <Link
-                      href="/cotacao"
-                      className="bg-brand-100 font-medium rounded-md py-3 px-5 text-white"
+                    <button
+                      className="text-brand-200 px-4 text-xl"
+                      onClick={toggleCart}
                     >
-                      Cotação
-                    </Link> */}
+                      <FiShoppingCart />
+                    </button>
+                    <Cart isOpen={isCartOpen} onClose={toggleCart} />
                   </div>
                 </div>
               </div>
