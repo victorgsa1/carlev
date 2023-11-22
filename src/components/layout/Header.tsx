@@ -21,6 +21,7 @@ import navigation from "./navigation";
 import { usePathname } from "next/navigation";
 import { Poppins } from "next/font/google";
 import Cart from "../common/Cart/Cart";
+import { useCart } from "../common/Cart/CartContext";
 
 interface CartItem {
   productName: string;
@@ -39,7 +40,7 @@ const servicos = [
 ];
 
 export default function Header() {
-  const [cart, setCart] = useState<CartItem[]>([]);
+  const { cart, addToCart } = useCart();
   const [isOpen, setIsOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const pathname = usePathname();
@@ -76,7 +77,7 @@ export default function Header() {
   };
 
   const updateCart = (newCart: CartItem[]) => {
-    setCart(newCart);
+    addToCart(newCart);
   };
 
   return (
