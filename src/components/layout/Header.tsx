@@ -35,15 +35,10 @@ const poppins = Poppins({
 
 declare const window: any;
 const servicos = [
-  { name: "Crossdocking", href: "/crossdocking" },
-  { name: "Armazenamento e Gestão de Estoque", href: "/armazenamento-estoque" },
-  { name: "Carga Fracionada", href: "/carga-fracionada" },
-  { name: "Carga Lotação", href: "/carga-lotacao" },
-  { name: "Carga Produtos Químicos", href: "/carga-produtos-quimicos" },
+  /* { name: "Crossdocking", href: "/crossdocking" }, */
 ];
 
 export default function Header() {
-
   const [cart, setCart] = useState<CartItem[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
@@ -58,7 +53,7 @@ export default function Header() {
         "https://api.whatsapp.com/send/?phone=5519991460273&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0",
     },
     contato: {
-      phone: "(11) 97667-7390",
+      phone: "(11) 99146-0273",
     },
   };
   useEffect(() => {
@@ -116,7 +111,7 @@ export default function Header() {
                 <span className="inline-block -mb-[2px] mx-2">
                   <FaPhoneAlt></FaPhoneAlt>
                 </span>
-                <strong>(11) </strong>
+                <strong>(19) 99999-9999</strong>
               </a>
             </div>
 
@@ -151,7 +146,7 @@ export default function Header() {
         <nav
           className={
             navbar
-              ? "bg-white shadow-lg fixed w-full z-50 px-5 top-0 animate-slideInDown"
+              ? "bg-white shadow-lg fixed w-full z-50 pr-5 top-0 animate-slideInDown"
               : "bg-white shadow-lg fixed w-full z-50 pr-5 "
           }
         >
@@ -191,7 +186,7 @@ export default function Header() {
                                 </span>
                               </Link>
                               <div className="group-hover:absolute hidden group-hover:block bg-white shadow-md p-[2px] w-48 top-12">
-                                {servicos.map((item, i) => (
+                                {/* {servicos.map((item, i) => (
                                   <div key={i}>
                                     <Link
                                       href={`/servicos/${item.href}`}
@@ -200,7 +195,7 @@ export default function Header() {
                                       {item.name}
                                     </Link>
                                   </div>
-                                ))}
+                                ))} */}
                               </div>
                             </div>
                           </div>
@@ -215,12 +210,13 @@ export default function Header() {
                         </Link>
                       )
                     )}
+                    {/* 
                     <Link
                       href="/cotacao"
                       className="bg-brand-100 font-medium rounded-md py-3 px-5 text-white"
                     >
                       Cotação
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -296,7 +292,7 @@ export default function Header() {
               <div className="lg:hidden" id="mobile-menu">
                 <div
                   ref={ref}
-                  className="bg-zinc-100 -mx-5 px-2 space-y-1 sm:px-3 py-10"
+                  className="bg-zinc-100 -mx-5 px-4 space-y-1 sm:px-3 py-10"
                 >
                   <div>
                     {navigation.map((item) =>
@@ -320,7 +316,7 @@ export default function Header() {
                             >
                               <Menu.Items className="ml-5 mb-2 origin-top-right divide-y ">
                                 <div className="px-1 pb-1 ">
-                                  {servicos.map((item, i) => (
+                                  {/* {servicos.map((item, i) => (
                                     <Menu.Item key={i}>
                                       {({ active }) => (
                                         <Link
@@ -336,7 +332,7 @@ export default function Header() {
                                         </Link>
                                       )}
                                     </Menu.Item>
-                                  ))}
+                                  ))} */}
                                 </div>
                               </Menu.Items>
                             </Transition>
