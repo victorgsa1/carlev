@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 interface CartItem {
   productName: string;
@@ -13,16 +13,14 @@ interface CartProps {
 }
 
 const Cart: React.FC<CartProps> = ({ isOpen, onClose, cart, updateCart }) => {
-  // Adiciona um efeito para observar alterações no localStorage
-useEffect(() => {
-  // Adiciona um efeito para observar alterações no localStorage
-  const storedCartString = localStorage.getItem("cart");
-  if (storedCartString) {
-    const storedCart = JSON.parse(storedCartString) || [];
-    updateCart(storedCart);
-  }
-}, []);
-  
+  useEffect(() => {
+    const storedCartString = localStorage.getItem("cart");
+    if (storedCartString) {
+      const storedCart = JSON.parse(storedCartString);
+      updateCart(storedCart);
+    }
+  }, []); // Deixe o array de dependências vazio para executar apenas uma vez durante a montagem
+
   const removeItem = (index: number) => {
     const updatedCartItems = [...cart];
     updatedCartItems.splice(index, 1);

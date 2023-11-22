@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 interface cartItem {
   productName: string;
@@ -10,9 +10,21 @@ interface cartItem {
 
 const FeedFeaturedItem = () => {
   const [selectedOption, setSelectedOption] = useState<string>("");
-  const [cart, setCart] = useState<{ productName: string; quantity: number }[]>(
-    []
-  );
+  const [cart, setCart] = useState<cartItem[]>([]);
+
+  useEffect(() => {
+    // Atualizar o estado do carrinho com o valor do localStorage na montagem do componente
+    const storedCartString = localStorage.getItem("cart");
+    if (storedCartString) {
+      const storedCart = JSON.parse(storedCartString);
+      setCart(storedCart);
+    }
+  }, []);
+
+  useEffect(() => {
+    // Atualizar o localStorage sempre que o carrinho for alterado
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
 
   const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedOption(event.target.value);
@@ -43,10 +55,10 @@ const FeedFeaturedItem = () => {
       <div className="row">
         <Image
           src="/img/swa-2200/barradacamera.png"
-          width={730}
-          height={500}
+          width={1200}
+          height={700}
           alt="Featured"
-          className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
+          className="relative xl:object-cover xl:w-full "
         />
         <select
           id="large"
@@ -77,35 +89,35 @@ const FeedFeaturedItem = () => {
           width={730}
           height={500}
           alt="Featured"
-          className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
+          className="relative xl:object-cover xl:w-full "
         />
         <Image
           src="/img/swa-2200/alvos.png"
           width={730}
           height={500}
           alt="Featured"
-          className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
+          className="relative xl:object-cover xl:w-full "
         />
         <Image
           src="/img/swa-2200/fixadorrapido.png"
           width={730}
           height={500}
           alt="Featured"
-          className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
+          className="relative xl:object-cover xl:w-full "
         />
         <Image
           src="/img/swa-2200/fixadorrapido2.png"
           width={730}
           height={500}
           alt="Featured"
-          className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
+          className="relative xl:object-cover xl:w-full "
         />
         <Image
           src="/img/swa-2200/torredacameramovel.png"
           width={730}
           height={500}
           alt="Featured"
-          className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
+          className="relative xl:object-cover xl:w-full "
         />
       </div>
     </section>
