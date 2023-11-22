@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -11,10 +12,14 @@ const ChooseType = () => {
             <Link href="/alinhadores">
               <div className="flex flex-col text-center">
                 <h1>Alinhadores</h1>
-                <img
-                  src="https://via.placeholder.com/800x600"
-                  className="rounded-sm shadow-lg"
+                <Image
+                  src={"/img/alinhadores.png"}
+                  width={800}
+                  height={600}
+                  alt="Alinhadores"
+                  className="px-16 py-4 sm:px-8 sm:pt-4"
                 />
+                <img src="" className="rounded-sm shadow-lg" />
               </div>
             </Link>
             <Link href="/balanceadores">
@@ -22,7 +27,7 @@ const ChooseType = () => {
                 <h1>Balanceadores</h1>
                 <img
                   src="https://via.placeholder.com/800x600"
-                  className="rounded-sm shadow-lg"
+                  className="rounded-sm shadow-lg px-16 py-4 sm:px-8 sm:pt-4"
                 />
               </div>
             </Link>
@@ -31,7 +36,7 @@ const ChooseType = () => {
                 <h1>Outros</h1>
                 <img
                   src="https://via.placeholder.com/800x600"
-                  className="rounded-sm shadow-lg"
+                  className="rounded-sm shadow-lg px-16 py-4 sm:px-8 sm:pt-4"
                 />
               </div>
             </Link>

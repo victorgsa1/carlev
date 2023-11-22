@@ -19,7 +19,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose, cart, updateCart }) => {
       const storedCart = JSON.parse(storedCartString);
       updateCart(storedCart);
     }
-  }, []); // Deixe o array de dependências vazio para executar apenas uma vez durante a montagem
+  }, [cart]); // Deixe o array de dependências vazio para executar apenas uma vez durante a montagem
 
   const removeItem = (index: number) => {
     const updatedCartItems = [...cart];
