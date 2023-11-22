@@ -4,6 +4,7 @@ import Header from "@/components/layout/Header";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import Footer from "@/components/layout/Footer";
+import { CartProvider } from "@/components/common/Cart/CartContext";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -19,9 +20,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={poppins.className}>
-        <Header />
-        {children}
-        {/* <Footer /> */}
+        <CartProvider>
+          <Header />
+          {children}
+          {/* <Footer /> */}
+        </CartProvider>
       </body>
     </html>
   );

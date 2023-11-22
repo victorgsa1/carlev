@@ -1,36 +1,30 @@
 import React, { useEffect } from "react";
-
-interface CartItem {
-  productName: string;
-  quantity: number;
-}
+import { useCart } from "./CartContext";
 
 interface CartProps {
   isOpen: boolean;
   onClose: () => void;
-  cart: CartItem[]; // Adiciona a propriedade cart
-  updateCart: (newCart: CartItem[]) => void; // Função para atualizar o carrinho
 }
 
-const Cart: React.FC<CartProps> = ({ isOpen, onClose, cart, updateCart }) => {
+const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
+  const { cart, addToCart, removeFromCart, clearCart } = useCart();
+
   useEffect(() => {
+    // Atualiza o carrinho com os dados do localStorage na montagem do componente
     const storedCartString = localStorage.getItem("cart");
     if (storedCartString) {
       const storedCart = JSON.parse(storedCartString);
-      updateCart(storedCart);
+      addToCart(storedCart);
     }
-  }, [cart]); // Deixe o array de dependências vazio para executar apenas uma vez durante a montagem
+  }, []); // Deixe o array de dependências vazio para executar apenas uma vez durante a montagem
 
   const removeItem = (index: number) => {
-    const updatedCartItems = [...cart];
-    updatedCartItems.splice(index, 1);
-    updateCart(updatedCartItems);
-    localStorage.setItem("cart", JSON.stringify(updatedCartItems));
+    removeFromCart(index);
+    // O estado do carrinho já foi atualizado pelo removeFromCart, então não é necessário atualizar o localStorage aqui
   };
 
-  const clearCart = () => {
-    updateCart([]);
-    localStorage.removeItem("cart");
+  const handleClearCart = () => {
+    clearCart();
     onClose();
   };
 

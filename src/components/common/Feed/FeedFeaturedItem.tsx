@@ -1,53 +1,37 @@
 "use client";
 
-import Image from "next/image";
 import React, { useState, useEffect } from "react";
-
-interface cartItem {
-  productName: string;
-  quantity: number;
-}
+import Image from "next/image";
+import { useCart } from "../Cart/CartContext";
 
 const FeedFeaturedItem = () => {
-  const [selectedOption, setSelectedOption] = useState<string>("");
-  const [cart, setCart] = useState<cartItem[]>([]);
-
-  useEffect(() => {
-    // Atualizar o estado do carrinho com o valor do localStorage na montagem do componente
-    const storedCartString = localStorage.getItem("cart");
-    if (storedCartString) {
-      const storedCart = JSON.parse(storedCartString);
-      setCart(storedCart);
-    }
-  }, []);
+  const [inputValue, setInputValue] = useState<string>("");
+  const { cart, addToCart } = useCart();
 
   useEffect(() => {
     // Atualizar o localStorage sempre que o carrinho for alterado
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
 
-  const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedOption(event.target.value);
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setInputValue(event.target.value);
   };
 
   const handleAddToCart = () => {
-    if (!selectedOption) {
-      // Adicione lógica para lidar com nenhum item selecionado, se necessário
+    if (!inputValue) {
+      // Adicione lógica para lidar com nenhum valor inserido, se necessário
       return;
     }
 
     const cartItem = {
-      productName: selectedOption,
+      productName: inputValue,
       quantity: 1,
     };
 
-    setCart((prevCart) => [...prevCart, cartItem]); // Atualize o estado do carrinho
+    addToCart(cartItem); // Adicione ao carrinho usando addToCart do contexto
 
-    const updatedCart = [...cart, cartItem];
-    localStorage.setItem("cart", JSON.stringify(updatedCart));
-
-    // Limpe a seleção após adicionar ao carrinho
-    setSelectedOption("");
+    // Limpe o input após adicionar ao carrinho
+    setInputValue("");
   };
 
   return (
@@ -60,24 +44,13 @@ const FeedFeaturedItem = () => {
           alt="Featured"
           className="relative xl:object-cover xl:w-full "
         />
-        <select
-          id="large"
+        <input
+          type="text"
           className="block w-full px-4 py-3 text-base text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
-          onChange={handleSelectChange}
-          value={selectedOption}
-        >
-          {/* Opções do select */}
-          <option value="null">Selecione um item</option>
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-          <option value="D">D</option>
-          <option value="E">E</option>
-          <option value="F">F</option>
-          <option value="G">G</option>
-          <option value="H">H</option>
-          {/* Adicione mais opções conforme necessário */}
-        </select>
+          onChange={handleInputChange}
+          value={inputValue}
+          placeholder="Digite o nome do item"
+        />
         <button
           onClick={handleAddToCart}
           className="ml-4 px-4 py-3 bg-blue-500 text-white rounded-lg"
