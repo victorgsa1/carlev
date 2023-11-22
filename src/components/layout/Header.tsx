@@ -40,7 +40,7 @@ const servicos = [
 ];
 
 export default function Header() {
-  const { cart } = useCart();
+  const { cart, addToCart } = useCart();
   const [isOpen, setIsOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const pathname = usePathname();
@@ -224,7 +224,7 @@ export default function Header() {
                 >
                   <FiShoppingCart />
                 </button>
-                <Cart isOpen={isCartOpen} onClose={toggleCart} cart={cart} />
+                <Cart isOpen={isCartOpen} onClose={toggleCart} />
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
