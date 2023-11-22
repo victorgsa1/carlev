@@ -28,9 +28,28 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
     onClose();
   };
 
-  const WppSend = () => {
-    console.log("oi");
-  };
+ const WppSend = () => {
+   const phoneNumber = "5519991460273";
+   const message = encodeURIComponent(buildMessage());
+   const whatsappLink = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`;
+
+   // Abre uma nova guia com o link do WhatsApp
+   window.open(whatsappLink, "_blank");
+ };
+
+ const buildMessage = (): string => {
+   // Verifica se há mais de um item no carrinho
+   const pluralSuffix = cart.length > 1 ? "s" : "";
+
+   // Construa a mensagem incluindo informações de todos os produtos no carrinho
+   const productMessages = cart.map((product) => {
+     return `${product.quantity}x ${product.productName}`;
+   });
+
+   return `Olá, estou interessado no${pluralSuffix} seguinte${pluralSuffix} produto${pluralSuffix}: ${productMessages.join(
+     ", "
+   )}`;
+ };
 
   return (
     <div
