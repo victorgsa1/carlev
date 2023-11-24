@@ -7,11 +7,11 @@ const ChooseType = () => {
   return (
     <section>
       <div className="row">
-        <div className="flex sm:mt-40">
+        <div className="flex sm:mt-6 2xl:mt-20">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <Link href="/alinhadores">
               <div className="flex flex-col text-center">
-                <h1>Alinhadores</h1>
+                <h1 className="text-2xl font-bold">Alinhadores</h1>
                 <Image
                   src={"/img/alinhadores.png"}
                   width={800}
@@ -19,7 +19,6 @@ const ChooseType = () => {
                   alt="Alinhadores"
                   className="px-16 py-4 sm:px-8 sm:pt-4"
                 />
-                <img src="" className="rounded-sm shadow-lg" />
               </div>
             </Link>
             <Link href="/balanceadores">

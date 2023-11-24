@@ -59,7 +59,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
     >
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl">Carrinho</h2>
-        <button onClick={clearCart} className="text-red-500">
+        <button onClick={onClose} className="text-red-500">
           X
         </button>
       </div>
@@ -76,17 +76,17 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
         ))}
       </ul>
       <div className="flex flex-row gap-4">
-        <button
+        {/* <button
           onClick={onClose}
           className="bg-brand-200 text-white py-2 px-4 rounded mt-4"
         >
           Fechar Carrinho
-        </button>
+        </button> */}
         <button
           onClick={WppSend}
-          className="bg-brand-200 text-white py-2 px-4 rounded mt-4"
+          className="bg-white text-brand-200 w-full text-white py-2 px-4 rounded mt-4"
         >
-          Concluir Pedido
+          <span className="text-brand-200">Solicitar Orçamento</span>
         </button>
       </div>
     </div>

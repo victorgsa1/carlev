@@ -27,7 +27,7 @@ const FeedFeaturedItem = () => {
     }
 
     const cartItem = {
-      productName: `Alinhador - Item ${inputValue} - ${modelValue}`,
+      productName: `Alinhador PRO42 - Item ${inputValue} - ${modelValue}`,
       quantity: 1,
     };
 
@@ -55,7 +55,7 @@ const FeedFeaturedItem = () => {
               onChange={handleInputChange}
               value={inputValue}
               data-model="Barra da Câmera"
-              placeholder="Digite o nome do item"
+              placeholder="Digite o código do item"
             />
             <button
               onClick={handleAddToCart}
@@ -80,7 +80,7 @@ const FeedFeaturedItem = () => {
               onChange={handleInputChange}
               value={inputValue}
               data-model="Fixador Convencional"
-              placeholder="Digite o nome do item"
+              placeholder="Digite o código do item"
             />
             <button
               onClick={handleAddToCart}
@@ -105,7 +105,7 @@ const FeedFeaturedItem = () => {
               onChange={handleInputChange}
               value={inputValue}
               data-model="Alvos"
-              placeholder="Digite o nome do item"
+              placeholder="Digite o código do item"
             />
             <button
               onClick={handleAddToCart}
@@ -130,7 +130,7 @@ const FeedFeaturedItem = () => {
               onChange={handleInputChange}
               value={inputValue}
               data-model="Fixador Rápido"
-              placeholder="Digite o nome do item"
+              placeholder="Digite o código do item"
             />
             <button
               onClick={handleAddToCart}
@@ -155,7 +155,7 @@ const FeedFeaturedItem = () => {
               onChange={handleInputChange}
               value={inputValue}
               data-model="Fixador Rápido 2"
-              placeholder="Digite o nome do item"
+              placeholder="Digite o código do item"
             />
             <button
               onClick={handleAddToCart}
@@ -180,7 +180,7 @@ const FeedFeaturedItem = () => {
               onChange={handleInputChange}
               value={inputValue}
               data-model="Torre da Câmera Móvel"
-              placeholder="Digite o nome do item"
+              placeholder="Digite o código do item"
             />
             <button
               onClick={handleAddToCart}
