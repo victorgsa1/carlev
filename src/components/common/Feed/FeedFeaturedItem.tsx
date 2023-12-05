@@ -7,11 +7,6 @@ import { useCart } from "../Cart/CartContext";
 const FeedFeaturedItem = () => {
   const { cart, addToCart } = useCart();
 
-  useEffect(() => {
-    // Atualizar o localStorage sempre que o carrinho for alterado
-    localStorage.setItem("cart", JSON.stringify(cart));
-  }, [cart]);
-
   const [inputValue, setInputValue] = useState<string>("");
   const [modelValue, setModelValue] = useState<string>("");
 
@@ -21,6 +16,8 @@ const FeedFeaturedItem = () => {
   };
 
   const handleAddToCart = () => {
+    console.log("handleAddToCart chamado");
+
     if (!inputValue || !modelValue) {
       // Adicione lógica para lidar com nenhum item digitado ou modelo selecionado, se necessário
       return;

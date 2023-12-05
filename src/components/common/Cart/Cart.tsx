@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useCart } from "./CartContext";
+import { useCart, CartItem } from "./CartContext";
 
 interface CartProps {
   isOpen: boolean;
@@ -7,16 +7,7 @@ interface CartProps {
 }
 
 const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
-  const { cart, addToCart, removeFromCart, clearCart } = useCart();
-
-  useEffect(() => {
-    // Atualiza o carrinho com os dados do localStorage na montagem do componente
-    const storedCartString = localStorage.getItem("cart");
-    if (storedCartString) {
-      const storedCart = JSON.parse(storedCartString);
-      addToCart(storedCart);
-    }
-  }, []); // Deixe o array de dependências vazio para executar apenas uma vez durante a montagem
+  const { cart, removeFromCart, clearCart } = useCart();
 
   const removeItem = (index: number) => {
     removeFromCart(index);
@@ -28,28 +19,28 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
     onClose();
   };
 
- const WppSend = () => {
-   const phoneNumber = "5519991460273";
-   const message = encodeURIComponent(buildMessage());
-   const whatsappLink = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`;
+  const WppSend = () => {
+    const phoneNumber = "5519991460273";
+    const message = encodeURIComponent(buildMessage());
+    const whatsappLink = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`;
 
-   // Abre uma nova guia com o link do WhatsApp
-   window.open(whatsappLink, "_blank");
- };
+    // Abre uma nova guia com o link do WhatsApp
+    window.open(whatsappLink, "_blank");
+  };
 
- const buildMessage = (): string => {
-   // Verifica se há mais de um item no carrinho
-   const pluralSuffix = cart.length > 1 ? "s" : "";
+  const buildMessage = (): string => {
+    // Verifica se há mais de um item no carrinho
+    const pluralSuffix = cart.length > 1 ? "s" : "";
 
-   // Construa a mensagem incluindo informações de todos os produtos no carrinho
-   const productMessages = cart.map((product) => {
-     return `${product.quantity}x ${product.productName}`;
-   });
+    // Construa a mensagem incluindo informações de todos os produtos no carrinho
+    const productMessages = cart.map((product) => {
+      return `${product.quantity}x ${product.productName}`;
+    });
 
-   return `Olá, estou interessado no${pluralSuffix} seguinte${pluralSuffix} produto${pluralSuffix}: ${productMessages.join(
-     ", "
-   )}`;
- };
+    return `Olá, estou interessado no${pluralSuffix} seguinte${pluralSuffix} produto${pluralSuffix}: ${productMessages.join(
+      ", "
+    )}`;
+  };
 
   return (
     <div
