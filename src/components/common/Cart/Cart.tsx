@@ -11,7 +11,6 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
 
   const removeItem = (index: number) => {
     removeFromCart(index);
-    // O estado do carrinho já foi atualizado pelo removeFromCart, então não é necessário atualizar o localStorage aqui
   };
 
   const handleClearCart = () => {
@@ -24,22 +23,21 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
     const message = encodeURIComponent(buildMessage());
     const whatsappLink = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`;
 
-    // Abre uma nova guia com o link do WhatsApp
     window.open(whatsappLink, "_blank");
   };
 
   const buildMessage = (): string => {
-    // Verifica se há mais de um item no carrinho
-    const pluralSuffix = cart.length > 1 ? "s" : "";
+    const pluralSuffix = cart.reduce(
+      (total, product) => total + product.quantity,
+      0
+    );
 
-    // Construa a mensagem incluindo informações de todos os produtos no carrinho
     const productMessages = cart.map((product) => {
       return `${product.quantity}x ${product.productName}`;
     });
-
-    return `Olá, estou interessado no${pluralSuffix} seguinte${pluralSuffix} produto${pluralSuffix}: ${productMessages.join(
-      ", "
-    )}`;
+    return `Olá, estou interessado no${pluralSuffix > 1 && "s"} seguinte${
+      pluralSuffix > 1 && "s"
+    } produto${pluralSuffix > 1 && "s"}: ${productMessages.join(", ")}`;
   };
 
   return (
@@ -75,7 +73,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
         </button> */}
         <button
           onClick={WppSend}
-          className="bg-white text-brand-200 w-full text-white py-2 px-4 rounded mt-4"
+          className="bg-white text-brand-200 w-full py-2 px-4 rounded mt-4"
         >
           <span className="text-brand-200">Solicitar Orçamento</span>
         </button>

@@ -12,14 +12,13 @@ const FeedFeaturedItem = () => {
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
-    setModelValue(event.target.dataset.model || ""); // Atualiza o valor do modelo
+    setModelValue(event.target.dataset.model || "");
   };
 
   const handleAddToCart = () => {
     console.log("handleAddToCart chamado");
 
     if (!inputValue || !modelValue) {
-      // Adicione lógica para lidar com nenhum item digitado ou modelo selecionado, se necessário
       return;
     }
 
@@ -28,9 +27,8 @@ const FeedFeaturedItem = () => {
       quantity: 1,
     };
 
-    addToCart(cartItem); // Adicione ao carrinho usando addToCart do contexto
+    addToCart(cartItem);
 
-    // Limpe o input após adicionar ao carrinho
     setInputValue("");
   };
 
@@ -39,11 +37,12 @@ const FeedFeaturedItem = () => {
       <div className="row">
         <div className="flex flex-col">
           <Image
-            src="/img/swa-2200/barradacamera.png"
+            src="/img/alinhadores/pro-42/barradacamera.png"
             width={1200}
             height={700}
             alt="Featured"
-            className="relative xl:object-cover xl:w-full "
+            className="relative xl:object-cover xl:w-full pointer-events-none draggable-none"
+            onContextMenu={(e) => e.preventDefault()}
           />
           <div className="flex flex-row">
             <input
@@ -64,7 +63,7 @@ const FeedFeaturedItem = () => {
         </div>
         <div className="flex flex-col">
           <Image
-            src="/img/swa-2200/fixadorconvencional.png"
+            src="/img/alinhadores/pro-42/fixadorconvencional.png"
             width={730}
             height={500}
             alt="Featured"
@@ -89,7 +88,7 @@ const FeedFeaturedItem = () => {
         </div>
         <div className="flex flex-col">
           <Image
-            src="/img/swa-2200/alvos.png"
+            src="/img/alinhadores/pro-42/alvos.png"
             width={730}
             height={500}
             alt="Featured"
@@ -114,7 +113,7 @@ const FeedFeaturedItem = () => {
         </div>
         <div className="flex flex-col">
           <Image
-            src="/img/swa-2200/fixadorrapido.png"
+            src="/img/alinhadores/pro-42/fixadorrapido.png"
             width={730}
             height={500}
             alt="Featured"
@@ -139,7 +138,7 @@ const FeedFeaturedItem = () => {
         </div>
         <div className="flex flex-col">
           <Image
-            src="/img/swa-2200/fixadorrapido2.png"
+            src="/img/alinhadores/pro-42/fixadorrapido2.png"
             width={730}
             height={500}
             alt="Featured"
@@ -164,7 +163,7 @@ const FeedFeaturedItem = () => {
         </div>
         <div className="flex flex-col">
           <Image
-            src="/img/swa-2200/torredacameramovel.png"
+            src="/img/alinhadores/pro-42/torredacameramovel.png"
             width={730}
             height={500}
             alt="Featured"

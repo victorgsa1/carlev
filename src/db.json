@@ -1,0 +1,40 @@
+{
+  "alinhadores": {
+    "description": "Alinhador",
+    "modelos": {
+      "pro-42": {
+        "modelName": "PRO42",
+        "items": [
+          {
+            "itemName": "Alvos",
+            "archiveName": "alvos.png"
+          },
+          {
+            "itemName": "Barra da Câmera",
+            "archiveName": "barradacamera.png"
+          },
+          {
+            "itemName": "Fixador Convencional",
+            "archiveName": "fixadorconvencional.png"
+          },
+          {
+            "itemName": "Fixador Rápido",
+            "archiveName": "fixadorrapido.png"
+          },
+          {
+            "itemName": "Fixador Rápido 2",
+            "archiveName": "fixadorrapido2.png"
+          },
+          {
+            "itemName": "Torre da Câmera Móvel",
+            "archiveName": "torredacameramovel.png"
+          }
+        ]
+      },
+      "pro-32": {},
+      "linux": {}
+    },
+    "imagesPath": "/img/alinhadores/"
+  },
+  "balanceadores": {}
+}
