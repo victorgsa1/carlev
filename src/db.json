@@ -31,10 +31,760 @@
           }
         ]
       },
-      "pro-32": {},
-      "linux": {}
+      "pro-32": {
+        "modelName": "PRO32",
+        "items": [
+          {
+            "itemName": "Sensor",
+            "archiveName": "sensor.webp"
+          },
+          {
+            "itemName": "WAP EAA0337J804",
+            "archiveName": "wap-eaa0337j804.webp"
+          },
+          {
+            "itemName": "Kit Par Target EAK0289J13A",
+            "archiveName": "KIT-PAR-TARGET-EAK0289J13A.webp"
+          },
+          {
+            "itemName": "Fixador Convencional",
+            "archiveName": "fixadorconvencional.webp"
+          },
+          {
+            "itemName": "Fixador EAK0289J154",
+            "archiveName": "fixador-eak0289J154.webp"
+          },
+          {
+            "itemName": "Barra da Câmera",
+            "archiveName": "barradacamerapro32.webp"
+          }
+        ]
+      },
+      "linux": {
+        "modelName": "Linux",
+        "items": [
+          {
+            "itemName": "CAM-CAM",
+            "archiveName": "cam-cam.webp"
+          },
+          {
+            "itemName": "CAM-TAR",
+            "archiveName": "cam-tar.webp"
+          },
+          {
+            "itemName": "AC100/AC200 Wheel Clamp",
+            "archiveName": "ac100ac200wheelclamp.webp"
+          },
+          {
+            "itemName": "EAS2105J294",
+            "archiveName": "EAS2105J294.webp"
+          },
+          {
+            "itemName": "Electrical Box",
+            "archiveName": "electrical-box.webp"
+          },
+          {
+            "itemName": "Electrical Shelf",
+            "archiveName": "electrical-shelf.webp"
+          },
+          {
+            "itemName": "KIOSK",
+            "archiveName": "kiosk.webp"
+          },
+          {
+            "itemName": "Kit Tilt Beam Tower",
+            "archiveName": "kit-tilt-beam-tower.webp"
+          },
+          {
+            "itemName": "Left Hand Camera Arm",
+            "archiveName": "left-hand-camera-arm.webp"
+          },
+          {
+            "itemName": "Shelf Assembly v2100",
+            "archiveName": "shelf-assembly-v2100-els.webp"
+          },
+          {
+            "itemName": "Slide Car",
+            "archiveName": "slide-car.webp"
+          },
+          {
+            "itemName": "Tilt Mechanism",
+            "archiveName": "tilt-mechanism.webp"
+          },
+          {
+            "itemName": "Tower",
+            "archiveName": "tower.webp"
+          },
+          {
+            "itemName": "Vector Câmera Beam",
+            "archiveName": "vector-camera-beam.webp"
+          },
+          {
+            "itemName": "Wheel Champ Vector",
+            "archiveName": "wheel-champ-vector.webp"
+          }
+        ]
+      }
     },
     "imagesPath": "/img/alinhadores/"
   },
-  "balanceadores": {}
+  "alinhadordefarol": {},
+  "balanceadores": {
+    "description": "Alinhador",
+    "modelos": {
+      "europa50": {
+        "modelName": "Europa50",
+        "items": [
+          {
+            "itemName": "Capa de Proteção da Roda",
+            "archiveName": "capadeprotecaodaroda.webp"
+          },
+          {
+            "itemName": "Conjunto Vibrador",
+            "archiveName": "conjuntovibrador.webp"
+          },
+          {
+            "itemName": "Display Capa Porta Pesos",
+            "archiveName": "displaycapaportapesos.webp"
+          },
+          {
+            "itemName": "Display PCI",
+            "archiveName": "displaypci.webp"
+          },
+          {
+            "itemName": "Escala de Medição",
+            "archiveName": "escalademedicao.webp"
+          },
+          {
+            "itemName": "Gabinete do Balanceador",
+            "archiveName": "gabinetedobalanceador.webp"
+          }
+        ]
+      },
+      "swb-100": {
+        "modelName": "SWB-100",
+        "items": [
+          {
+            "itemName": "EAZ0070G64A",
+            "archiveName": "EAZ0070G64A.webp"
+          },
+          {
+            "itemName": "EAZ0088G16A",
+            "archiveName": "EAZ0088G16A.webp"
+          },
+          {
+            "itemName": "EAZ0088G23A",
+            "archiveName": "EAZ0088G23A.webp"
+          },
+          {
+            "itemName": "EAZ0088G87A",
+            "archiveName": "eaz0088g87a.webp"
+          },
+          {
+            "itemName": "EAZ0088G88A",
+            "archiveName": "EAZ0088G88A.webp"
+          },
+          {
+            "itemName": "EAZ0088G89A",
+            "archiveName": "EAZ0088G89A.webp"
+          },
+          {
+            "itemName": "EAZ0088G90A",
+            "archiveName": "EAZ0088G90A.webp"
+          }
+        ]
+      },
+      "swb-200": {
+        "modelName": "SWB-200",
+        "items": [
+          {
+            "itemName": "EAZ0070G55A",
+            "archiveName": "EAZ0070G55A.webp"
+          },
+          {
+            "itemName": "EAZ0070G55A",
+            "archiveName": "EAZ0070G61A.webp"
+          },
+          {
+            "itemName": "EAZ0070G63A",
+            "archiveName": "EAZ0070G63A.webp"
+          },
+          {
+            "itemName": "EAZ0070G64A",
+            "archiveName": "EAZ0070G64A.webp"
+          },
+          {
+            "itemName": "EAZ0088G16A",
+            "archiveName": "EAZ0088G16A.webp"
+          },
+          {
+            "itemName": "EAZ0088G22A",
+            "archiveName": "EAZ0088G22A.webp"
+          },
+          {
+            "itemName": "EAZ0088G22A",
+            "archiveName": "EAZ0088G22A.webp"
+          },
+          {
+            "itemName": "EAZ0088G23A",
+            "archiveName": "EAZ0088G23A.webp"
+          },
+          {
+            "itemName": "EAZ0088G87A",
+            "archiveName": "eaz0088g87a.webp"
+          },
+          {
+            "itemName": "EAZ0088G89A",
+            "archiveName": "EAZ0088G89A.webp"
+          },
+          {
+            "itemName": "EAZ0088G93A",
+            "archiveName": "EAZ0088G93A.webp"
+          },
+          {
+            "itemName": "EAZ0088G94A",
+            "archiveName": "EAZ0088G94A.webp"
+          }
+        ]
+      },
+      "swb-400": {
+        "modelName": "SWB-400",
+        "items": [
+          {
+            "itemName": "EAZ0070G55A",
+            "archiveName": "EAZ0070G55A.webp"
+          },
+          {
+            "itemName": "EAZ0070G58A",
+            "archiveName": "EAZ0070G58A.webp"
+          },
+          {
+            "itemName": "EAZ0070G61A",
+            "archiveName": "EAZ0070G61A.webp"
+          },
+          {
+            "itemName": "EAZ0070G62A",
+            "archiveName": "EAZ0070G62A.webp"
+          },
+          {
+            "itemName": "EAZ0070G63A",
+            "archiveName": "EAZ0070G63A.webp"
+          },
+          {
+            "itemName": "EAZ0070G64A",
+            "archiveName": "EAZ0070G64A.webp"
+          },
+          {
+            "itemName": "EAZ0088G16A",
+            "archiveName": "EAZ0088G16A.webp"
+          },
+          {
+            "itemName": "EAZ0088G22A",
+            "archiveName": "EAZ0088G22A.webp"
+          },
+          {
+            "itemName": "EAZ0088G23A",
+            "archiveName": "EAZ0088G23A.webp"
+          }
+        ]
+      },
+      "swb-600": {
+        "modelName": "SWB-600",
+        "items": [
+          {
+            "itemName": "EAZ0070G62A",
+            "archiveName": "EAZ0070G62A.webp"
+          },
+          {
+            "itemName": "EAZ0088G2OAB",
+            "archiveName": "EAZ0088G2OAB.webp"
+          },
+          {
+            "itemName": "EAZ0088G96A",
+            "archiveName": "EAZ0088G96A.webp"
+          },
+          {
+            "itemName": "EAZ0088G22A",
+            "archiveName": "EAZ0088G22A.webp"
+          },
+          {
+            "itemName": "EAZ0070G64A",
+            "archiveName": "EAZ0070G64A.webp"
+          },
+          {
+            "itemName": "EAZ0033G88AB",
+            "archiveName": "EAZ0033G88AB.webp"
+          },
+          {
+            "itemName": "EAZ0070G58A",
+            "archiveName": "EAZ0070G58A.webp"
+          },
+          {
+            "itemName": "EAZ0070G61A",
+            "archiveName": "EAZ0070G61A.webp"
+          },
+          {
+            "itemName": "EAZ0088G23A",
+            "archiveName": "EAZ0088G23A.webp"
+          },
+          {
+            "itemName": "EAZ0089G37AB",
+            "archiveName": "EAZ0089G37AB.webp"
+          },
+          {
+            "itemName": "EAZ0033G99AB",
+            "archiveName": "EAZ0033G99AB.webp"
+          },
+          {
+            "itemName": "EAZ0070G63A",
+            "archiveName": "EAZ0070G63A.webp"
+          },
+          {
+            "itemName": "EAZ0088G16A",
+            "archiveName": "EAZ0088G16A.webp"
+          },
+          {
+            "itemName": "EAZ0070G83A",
+            "archiveName": "EAZ0070G83A.webp"
+          }
+        ]
+      },
+      "swb-800": {
+        "modelName": "SWB-800",
+        "items": [
+          {
+            "itemName": "Capa Corta Pesos",
+            "archiveName": "capacortapesos.webp"
+          },
+          {
+            "itemName": "Capa de Proteção da Roda",
+            "archiveName": "capadeprotecaodaroda.webp"
+          },
+          {
+            "itemName": "Conjunto Vibratório",
+            "archiveName": "conjuntovibratório.webp"
+          },
+          {
+            "itemName": "Gabinete de Sistema Vibratório",
+            "archiveName": "gabinetedesistemavibratorio.webp"
+          },
+          {
+            "itemName": "Medidor Manual",
+            "archiveName": "medidormanual.webp"
+          },
+          {
+            "itemName": "Pedal Montado",
+            "archiveName": "pedalmontado.webp"
+          },
+          {
+            "itemName": "Placa IBP",
+            "archiveName": "placaibp.webp"
+          },
+          {
+            "itemName": "Suporte Monitor",
+            "archiveName": "suportemonitor.webp"
+          },
+          {
+            "itemName": "Torre do Monitor",
+            "archiveName": "torredomonitor.webp"
+          }
+        ]
+      },
+      "swb-2000": {
+        "modelName": "SWB-2000",
+        "items": [
+          {
+            "itemName": "Alojamento",
+            "archiveName": "alojamento.webp"
+          },
+          {
+            "itemName": "Câmera Traseira",
+            "archiveName": "cameratraseira.webp"
+          },
+          {
+            "itemName": "Câmera Traseira Direita",
+            "archiveName": "cameratraseiradireita.webp"
+          },
+          {
+            "itemName": "Câmera Traseira Esquerda",
+            "archiveName": "cameratraseiraesquerda.webp"
+          },
+          {
+            "itemName": "Capa Porta peso e câmera interna",
+            "archiveName": "capaportapesocamerainterna.webp"
+          },
+          {
+            "itemName": "Conjunto Vibratório",
+            "archiveName": "conjuntovibratorio.webp"
+          },
+          {
+            "itemName": "Estrutura Traseira",
+            "archiveName": "estruturatraseira.webp"
+          },
+          {
+            "itemName": "Gabinete e Laser",
+            "archiveName": "gabineteelaser.webp"
+          },
+          {
+            "itemName": "Medidor Manual",
+            "archiveName": "medidormanual.webp"
+          },
+          {
+            "itemName": "Pedal Montado",
+            "archiveName": "pedalmontado.webp"
+          },
+          {
+            "itemName": "Placa IBP",
+            "archiveName": "placaibp.webp"
+          },
+          {
+            "itemName": "Placa EPCs",
+            "archiveName": "placaepcs.webp"
+          },
+          {
+            "itemName": "Torre do Monitor",
+            "archiveName": "torredomonitor.webp"
+          }
+        ]
+      },
+      "systemiv": {
+        "modelName": "System IV",
+        "items": [
+          {
+            "itemName": "Capa de Proteção da Roda",
+            "archiveName": "capaprotecaoroda.webp"
+          },
+          {
+            "itemName": "Componentes Porta Peso",
+            "archiveName": "componentesportapeso.webp"
+          },
+          {
+            "itemName": "Conjunto Medidor 2D",
+            "archiveName": "conjuntomedidor.webp"
+          },
+          {
+            "itemName": "Conjunto Medidor 2D Automático",
+            "archiveName": "conjuntomedidorautomatico.webp"
+          },
+          {
+            "itemName": "Conjunto Vibrador",
+            "archiveName": "conjuntovibrador.webp"
+          },
+          {
+            "itemName": "Gabinete de Sistema Vibratório",
+            "archiveName": "gabinetedesistemavibratorio.webp"
+          },
+          {
+            "itemName": "Medidor Externo 3D",
+            "archiveName": "medidorexterno3d.webp"
+          },
+          {
+            "itemName": "Pedal Eletrônico",
+            "archiveName": "pedaleletronico.webp"
+          },
+          {
+            "itemName": "Pedal Mecânico",
+            "archiveName": "pedalmecanico.webp"
+          },
+          {
+            "itemName": "Placa Montada",
+            "archiveName": "placamontada.webp"
+          },
+          {
+            "itemName": "Sistema Vibratório Porca Automática",
+            "archiveName": "sistemavibratorioporcaautomatica.webp"
+          },
+          {
+            "itemName": "Sistema Vibratório Unidade do Motor",
+            "archiveName": "sistemavibratoriounidadedomotor.webp"
+          },
+          {
+            "itemName": "Torre do Monitor",
+            "archiveName": "torredomonitor.webp"
+          }
+        ]
+      }
+    },
+    "imagesPath": "/img/balanceadores/"
+  },
+  "chave": {},
+  "desmontadadora": {
+    "description": "Desmontadora",
+    "modelos": {
+      "stc-210k": {
+        "modelName": "STC 210K",
+        "items": [
+          {
+            "itemName": "Desmontadora",
+            "archiveName": "desmontadora.webp"
+          }
+        ]
+      },
+      "stc-230": {
+        "modelName": "STC 230",
+        "items": [
+          {
+            "itemName": "Braço",
+            "archiveName": "braco.webp"
+          },
+          {
+            "itemName": "Bujão 885-8A",
+            "archiveName": "bujao885-8a.webp"
+          },
+          {
+            "itemName": "Cilindro",
+            "archiveName": "cilindro.webp"
+          },
+          {
+            "itemName": "Corpo da Desmontadora",
+            "archiveName": "corpodadesmontadora.webp"
+          },
+          {
+            "itemName": "Destalonador",
+            "archiveName": "destalonador.webp"
+          },
+          {
+            "itemName": "Guia",
+            "archiveName": "guia.webp"
+          },
+          {
+            "itemName": "Mesa Giratória",
+            "archiveName": "mesagiratoria.webp"
+          },
+          {
+            "itemName": "Mesa Giratória Quadrada 26",
+            "archiveName": "mesagiratoriaquadrada26.webp"
+          },
+          {
+            "itemName": "Pedais",
+            "archiveName": "pedais.webp"
+          },
+          {
+            "itemName": "Pedal Lateral",
+            "archiveName": "pedallateral.webp"
+          },
+          {
+            "itemName": "Redutor",
+            "archiveName": "redutor.webp"
+          },
+          {
+            "itemName": "Regulador",
+            "archiveName": "regulador.webp"
+          },
+          {
+            "itemName": "Regulador 5509208",
+            "archiveName": "regulador5509208.webp"
+          },
+          {
+            "itemName": "Rolo Maior",
+            "archiveName": "rolomaior.webp"
+          },
+          {
+            "itemName": "Rolo Menor",
+            "archiveName": "rolomenor.webp"
+          },
+          {
+            "itemName": "Suporte de Rolo de Depressão",
+            "archiveName": "suportederolodedepressao.webp"
+          }
+        ]
+      },
+      "stc-340p": {
+        "modelName": "STC 340P",
+        "items": [
+          {
+            "itemName": "Cilindro Destalonador",
+            "archiveName": "cilindrodestalonador.webp"
+          },
+          {
+            "itemName": "Coluna Vertical",
+            "archiveName": "colunavertical.webp"
+          },
+          {
+            "itemName": "Conjunto de Filtros",
+            "archiveName": "conjuntodefiltros.webp"
+          },
+          {
+            "itemName": "Gabinete",
+            "archiveName": "gabinete.webp"
+          },
+          {
+            "itemName": "Mesa Giratória",
+            "archiveName": "mesagiratoria.webp"
+          },
+          {
+            "itemName": "Motor",
+            "archiveName": "motor.webp"
+          },
+          {
+            "itemName": "Redutor",
+            "archiveName": "redutor.webp"
+          }
+        ]
+      },
+      "stc-540": {
+        "modelName": "STC 540",
+        "items": [
+          {
+            "itemName": "Atuador",
+            "archiveName": "atuador.webp"
+          },
+          {
+            "itemName": "Braço",
+            "archiveName": "braco.webp"
+          },
+          {
+            "itemName": "Braço da Coluna Vertical",
+            "archiveName": "bracodacolunavertical.webp"
+          },
+          {
+            "itemName": "Bujão",
+            "archiveName": "bujao.webp"
+          },
+          {
+            "itemName": "Caixa de Armazenamento Ferramentas Manomêtro",
+            "archiveName": "caixadearmazenamentoferramentasmanometro.webp"
+          },
+          {
+            "itemName": "Conjunto dos Pedais",
+            "archiveName": "conjuntodospedais.webp"
+          },
+          {
+            "itemName": "Conjunto Filtro Regulador",
+            "archiveName": "conjuntofiltroregulador.webp"
+          },
+          {
+            "itemName": "Corpo da Desmontadora",
+            "archiveName": "corpodadesmontadora.webp"
+          },
+          {
+            "itemName": "Destalonador",
+            "archiveName": "destalonador.webp"
+          },
+          {
+            "itemName": "Mesa Giratória",
+            "archiveName": "mesagiratoria.webp"
+          },
+          {
+            "itemName": "Motor",
+            "archiveName": "motor.webp"
+          },
+          {
+            "itemName": "Pedal Lateral",
+            "archiveName": "pedallateral.webp"
+          },
+          {
+            "itemName": "Redutor",
+            "archiveName": "redutor.webp"
+          },
+          {
+            "itemName": "Suporte Pedal",
+            "archiveName": "suportepedal.webp"
+          },
+          {
+            "itemName": "Torre do Braço",
+            "archiveName": "torredobraco.webp"
+          }
+        ]
+      }
+    },
+    "imagesPath": "/img/desmontadora/"
+  },
+  "elevadores": {
+    "description": "Elevador",
+    "modelos": {
+      "hl4000": {
+        "modelName": "HL4000",
+        "items": [
+          {
+            "itemName": "Elevador",
+            "archiveName": "elevador.webp"
+          }
+        ]
+      },
+      "hl4000p": {
+        "modelName": "HL4000P",
+        "items": [
+          {
+            "itemName": "Elevador",
+            "archiveName": "elevador.webp"
+          }
+        ]
+      }
+    },
+    "imagesPath": "/img/elevadores/"
+  },
+  "rampa": {
+    "description": "Rampa",
+    "modelos": {
+      "hidraulica": {
+        "modelName": "Hidráulica",
+        "items": [
+          {
+            "itemName": "Peças Complementares SAR 9004",
+            "archiveName": "pecascomplementaresSAR9004.webp"
+          },
+          {
+            "itemName": "SAR 9004(Nacional Nova)",
+            "archiveName": "SAR-9004nacionalnova.webp"
+          }
+        ]
+      },
+      "macacoaj": {
+        "modelName": "Macaco AJ",
+        "items": [
+          {
+            "itemName": "AJ 1800",
+            "archiveName": "aj1800.webp"
+          }
+        ]
+      },
+      "pneumatica": {
+        "modelName": "Pneumática",
+        "items": [
+          {
+            "itemName": "Cilindro Pneumatico",
+            "archiveName": "cilindropneumatico.webp"
+          },
+          {
+            "itemName": "Conjunto Lubrificador",
+            "archiveName": "conjuntolubrificador.webp"
+          },
+          {
+            "itemName": "Controle Remoto",
+            "archiveName": "controleremoto.webp"
+          }
+        ]
+      }
+    },
+    "imagesPath": "/img/rampa/"
+  },
+  "recicladores": {
+    "description": "Recicladores",
+    "modelos": {
+      "eco1500-2500": {
+        "modelName": "ECO 1500-2500",
+        "items": [
+          {
+            "itemName": "Distribuidor",
+            "archiveName": "distribuidor.webp"
+          },
+          {
+            "itemName": "Ligação das Conexões",
+            "archiveName": "ligacaodasconexoes.webp"
+          }
+        ]
+      },
+      "eco2500-2900": {
+        "modelName": "ECO 2500-2900",
+        "items": [
+          {
+            "itemName": "ECO 2500-2900 AUTOMATICO",
+            "archiveName": "eco25002900auto.webp"
+          }
+        ]
+      }
+    },
+    "imagesPath": "/img/recicladores/"
+  }
 }
