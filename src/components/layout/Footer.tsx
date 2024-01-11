@@ -108,7 +108,7 @@ const Footer = () => {
                 <ul className="flex gap-y-2 flex-col">
                   <li className="hover:text-brand-50 transition duration-500">
                     <a
-                      href="mailto:interagiti@interagiti.com?subject=Olá vim do site, gostaria de um atendimento"
+                      href="mailto:assistencia@carlev.net.br?subject=Olá vim do site, gostaria de um atendimento"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -120,7 +120,7 @@ const Footer = () => {
                   </li>
                   <li className="hover:text-brand-50 transition duration-500">
                     <a
-                      href="https://api.whatsapp.com/send/?phone=5519991460273&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0"
+                      href="https://api.whatsapp.com/send/?phone=5519997093646&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -184,7 +184,7 @@ const Footer = () => {
                     <FaInstagram />
                   </a>
                   <a
-                    href="https://api.whatsapp.com/send/?phone=5519991460273&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0"
+                    href="https://api.whatsapp.com/send/?phone=5519997093646&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-brand-100 rounded-full text-white hover:-translate-y-1 transition duration-500"

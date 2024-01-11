@@ -19,7 +19,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
   };
 
   const WppSend = () => {
-    const phoneNumber = "5519991460273";
+    const phoneNumber = "5519997093646";
     const message = encodeURIComponent(buildMessage());
     const whatsappLink = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`;
 

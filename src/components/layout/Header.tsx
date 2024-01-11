@@ -51,10 +51,10 @@ export default function Header() {
       linkedIn: "https://br.linkedin.com/company/",
       instagram: "https://www.instagram.com/",
       whatsapp:
-        "https://api.whatsapp.com/send/?phone=5519991460273&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0",
+        "https://api.whatsapp.com/send/?phone=5519997093646&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0",
     },
     contato: {
-      phone: "(11) 99146-0273",
+      phone: "(19) 99709-3646",
     },
   };
   useEffect(() => {
@@ -80,7 +80,7 @@ export default function Header() {
     <>
       <header>
         <a
-          href="https://api.whatsapp.com/send/?phone=5519991460273&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0"
+          href="https://api.whatsapp.com/send/?phone=5519997093646&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-8 right-8 text-white text-3xl shadow-xl bg-[#25D366] p-3 rounded-full z-30"
@@ -91,13 +91,13 @@ export default function Header() {
           <div className="max-w-7xl mx-auto flex place-content-between">
             <div className="flex place-items-center gap-x-5">
               <a
-                href="mailto:interagiti@interagiti.com?subject=Olá vim do site, gostaria de um atendimento personalizado"
+                href="mailto:assistencia@carlev.net.br?subject=Olá vim do site, gostaria de um atendimento personalizado"
                 className="text-sm hidden sm:block"
               >
                 <span className="inline-block text-lg -mb-1 mx-2">
                   <FaRegEnvelope></FaRegEnvelope>
                 </span>
-                email@email.com
+                assistencia@carlev.net.br
               </a>
               <a
                 href={data.redeSocial.whatsapp}
@@ -108,7 +108,7 @@ export default function Header() {
                 <span className="inline-block -mb-[2px] mx-2">
                   <FaPhoneAlt></FaPhoneAlt>
                 </span>
-                <strong>(19) 99999-9999</strong>
+                <strong>(19) 99709-3646</strong>
               </a>
             </div>
 
