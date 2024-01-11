@@ -30,7 +30,7 @@ export default function Page({ params }: { params: { modelo: string } }) {
     return <div className="mt-24">Modelo não encontrado</div>;
   }
 
-  const modeloData = db.alinhadores.modelos[`${modelo}`];
+  const modeloData = db.alinhadores.modelos[modelo];
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
