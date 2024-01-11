@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const FeedModelList = () => {
-  const modelos = ["pro-42", "pro-32"]; // Adicione outros modelos conforme necessário
+  const modelos = ["pro-42", "pro-32"];
 
   return (
     <div className="row">
