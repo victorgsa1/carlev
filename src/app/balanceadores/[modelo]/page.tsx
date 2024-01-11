@@ -63,7 +63,7 @@ export default function Page({ params }: { params: { modelo: string } }) {
               modeloData.items.map((item: any) => (
                 <li key={item.archiveName}>
                   <Image
-                    src={`/img/Balanceadores/${modelo}/${item?.archiveName}`}
+                    src={`/img/balanceadores/${modelo}/${item?.archiveName}`}
                     width={1200}
                     height={700}
                     alt={item.itemName}
