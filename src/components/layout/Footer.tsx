@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Logo from "../../../public/img/logocarlev.png";
 import Link from "next/link";
 import {
   FaFacebookF,
@@ -16,7 +17,7 @@ import { Link as Scroll } from "react-scroll";
 const Footer = () => {
   const data = new Date(Date.now());
   return (
-    <footer className={`bg-gradient-to-b from-brand-100 to-brand-150`}>
+    <footer className={`bg-gradient-to-b from-brand-300 to-brand-200`}>
       <div className="-translate-y-1/2 flex place-content-end overflow-x-hidden relative z-10">
         <div className="h-10 sm:h-12 bg-brand-200 -skew-x-[20deg] block w-4/5 rounded-md -mr-3 "></div>
       </div>
@@ -30,60 +31,74 @@ const Footer = () => {
                   className="cursor-pointer max-w-[8rem] md:max-w-[12rem]"
                 >
                   <Image
-                    src="/img/logo-white.webp"
+                    src="/img/logo_white.png"
+                    width={600}
+                    height={204}
+                    alt="Carlev Assistência Técnica Autorizada"
+                  />
+                  <Image
+                    src="/img/snapon.png"
                     width={600}
                     height={204}
                     alt="Carlev Assistência Técnica Autorizada"
                   />
                 </Link>
-                <p className="text-white leading-5 mt-3 text-justify">
-                  Especialistas na gestão de soluções de transportes e logística
-                  para seu negócio.
+                <p className="text-white leading-5 mt-3 text-left">
+                  Assistência técnica oficial e autorizada pela Sun Snapon
+                  Brasil: o seu parceiro confiável para serviços especializados.
                 </p>
               </div>
             </div>
             <div className="col-span-4 md:col-span-3 grid md:grid-cols-3 gap-5">
               <div className="text-white">
-                <h2 className="font-bold mb-3 text-xl">Links Importantes</h2>
+                <h2 className="font-bold mb-3 text-xl  ">Links Importantes</h2>
                 <ul className="flex gap-y-2 flex-col">
                   <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/cotacao">
+                    <Link href="/alinhadores">
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaAngleDoubleRight />
                       </span>
-                      Faça uma cotação
+                      Alinhadores
                     </Link>
                   </li>
                   <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/servicos">
+                    <Link href="/balanceadores">
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaAngleDoubleRight />
                       </span>
-                      Serviços
+                      Balanceadores
                     </Link>
                   </li>
                   <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/quem-somos">
+                    <Link href="/desmontadora">
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaAngleDoubleRight />
                       </span>
-                      Quem Somos
+                      Desmontadora
                     </Link>
                   </li>
                   <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/politica-privacidade">
+                    <Link href="/elevadores">
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaAngleDoubleRight />
                       </span>
-                      Política de Privacidade
+                      Elevadores
                     </Link>
                   </li>
                   <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/blog">
+                    <Link href="/rampa">
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaAngleDoubleRight />
                       </span>
-                      Blog
+                      Rampa
+                    </Link>
+                  </li>
+                  <li className="hover:text-brand-50 transition duration-500">
+                    <Link href="/recicladores">
+                      <span className="inline-block -mb-[2px] mr-1">
+                        <FaAngleDoubleRight />
+                      </span>
+                      Recicladores
                     </Link>
                   </li>
                 </ul>
@@ -143,28 +158,28 @@ const Footer = () => {
                     </p>
                   </li>
                 </ul>
-                <div className="flex gap-x-1 xl:gap-x-3 mt-5 ">
+                <div className="flex gap-x-1 xl:gap-x-3 mt-5">
                   <a
                     href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
+                    className="p-3 bg-brand-100 rounded-full text-white hover:-translate-y-1 transition duration-500"
                   >
                     <FaFacebookF />
                   </a>
-                  <a
+                  {/* <a
                     href="https://br.linkedin.com/company/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
+                    className="p-3 bg-brand-100 rounded-full text-white hover:-translate-y-1 transition duration-500"
                   >
                     <FaLinkedinIn />
-                  </a>
+                  </a> */}
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
+                    className="p-3 bg-brand-100 rounded-full text-white hover:-translate-y-1 transition duration-500"
                   >
                     <FaInstagram />
                   </a>
@@ -172,7 +187,7 @@ const Footer = () => {
                     href="https://api.whatsapp.com/send/?phone=5519991460273&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
+                    className="p-3 bg-brand-100 rounded-full text-white hover:-translate-y-1 transition duration-500"
                   >
                     <FaWhatsapp />
                   </a>
@@ -189,23 +204,24 @@ const Footer = () => {
               © {data.getFullYear()} Todos os direitos reservados.
             </p>
           </div>
-          <div className="text-white flex gap-2 text-sm">
+          <div className="text-white flex gap-1 text-sm">
             Desenvolvido por
-            <a
-              href="https://ominy.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-brand-50 font-bold transition duration-500"
-            >
-              Ominy Solutions
-            </a>
             <a
               href="https://interagiti.com.br/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-50 font-bold transition duration-500"
             >
-              & InteragiTI
+              InteragiTI
+            </a>
+            &
+            <a
+              href="https://ominy.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-50 font-bold transition duration-500"
+            >
+              Ominy.
             </a>
           </div>{" "}
         </div>

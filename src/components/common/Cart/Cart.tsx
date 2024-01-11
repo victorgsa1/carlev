@@ -35,9 +35,10 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
     const productMessages = cart.map((product) => {
       return `${product.quantity}x ${product.productName}`;
     });
-    return `Olá, estou interessado no${pluralSuffix > 1 && "s"} seguinte${
-      pluralSuffix > 1 && "s"
-    } produto${pluralSuffix > 1 && "s"}: ${productMessages.join(", ")}`;
+
+    return `Olá, estou interessado no${pluralSuffix > 1 ? "s" : ""} seguinte${
+      pluralSuffix > 1 ? "s" : ""
+    } produto${pluralSuffix > 1 ? "s" : ""}: ${productMessages.join(", ")}`;
   };
 
   return (

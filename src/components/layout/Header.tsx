@@ -129,14 +129,14 @@ export default function Header() {
               >
                 <FaInstagram />
               </a>
-              <a
+              {/* <a
                 href={data.redeSocial.linkedIn}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3"
               >
                 <FaLinkedinIn />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

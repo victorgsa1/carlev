@@ -13,10 +13,10 @@ const ChooseType = () => {
               <div className="flex flex-col text-center">
                 <Image
                   src={"/img/alinhador.png"}
-                  width={500}
-                  height={500}
+                  width={800}
+                  height={600}
                   alt="Alinhadores"
-                  className=""
+                  className="max-h-52"
                 />
                 <h1 className="text-2xl font">Alinhadores</h1>
               </div>
@@ -28,7 +28,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Balanceadores"
-                  className=""
+                  className="max-h-52"
                 />
                 <h1 className="text-2xl font">Balanceadores</h1>
               </div>
@@ -40,7 +40,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Desmontadora"
-                  className=""
+                  className="max-h-52"
                 />
                 <h1 className="text-2xl font">Desmontadores</h1>
               </div>
@@ -52,7 +52,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Evelador"
-                  className=""
+                  className="max-h-52"
                 />
                 <h1 className="text-2xl font">Elevadores</h1>
               </div>
@@ -64,7 +64,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Rampa"
-                  className=""
+                  className="max-h-52"
                 />
                 <h1 className="text-2xl font">Rampas</h1>
               </div>
@@ -76,7 +76,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Reciclador"
-                  className=""
+                  className="max-h-52"
                 />
                 <h1 className="text-2xl font">Recicladores</h1>
               </div>
