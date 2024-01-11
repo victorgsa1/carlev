@@ -1,4 +1,5 @@
 import FeedModelList from "@/components/common/Feed/FeedModelList";
+import Image from "next/image";
 import Link from "next/link";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
 
@@ -22,7 +23,7 @@ export default function Page() {
       </section>
       <div className="row">
         <div className="container">
-          <div className="grid grid-cols-1 gap-4">
+          <div className="grid grid-cols-1 gap-4 my-16">
             {modelos.map((modelo) => (
               <Link
                 key={modelo}
@@ -30,15 +31,16 @@ export default function Page() {
                 as={`/rampa/${modelo}`}
               >
                 <div className="flex flex-row bg-zinc-100 rounded-md shadow-lg gap-8 p-2 w-full">
-                  <div className="flex">
-                    <img
-                      src={`https://via.placeholder.com/300x300?text=${modelo}`}
-                      className=""
-                      alt={`Imagem da Rampa ${modelo}`}
+                  <div className="flex border bg-zinc-50 shadow-md">
+                    <Image
+                      src={"/img/rampa.png"}
+                      width={300}
+                      height={300}
+                      alt="Rampas"
                     />
                   </div>
                   <div className="flex flex-col justify-center">
-                    <h1 className="text-4xl font-medium">{modelo}</h1>
+                    <h1 className="text-4xl font-medium uppercase">{modelo}</h1>
                   </div>
                 </div>
               </Link>

@@ -341,6 +341,7 @@ export default function Header() {
                         </Link>
                       )
                     )}
+                    {/* 
                     <div className="mt-3 ml-3">
                       <Link
                         href="/cotacao"
@@ -349,7 +350,7 @@ export default function Header() {
                       >
                         Cotação
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

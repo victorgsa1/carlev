@@ -16,7 +16,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Alinhadores"
-                  className="max-h-52"
+                  className="md:max-h-52"
                 />
                 <h1 className="text-2xl font">Alinhadores</h1>
               </div>
@@ -28,7 +28,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Balanceadores"
-                  className="max-h-52"
+                  className="md:max-h-52"
                 />
                 <h1 className="text-2xl font">Balanceadores</h1>
               </div>
@@ -40,7 +40,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Desmontadora"
-                  className="max-h-52"
+                  className="md:max-h-52"
                 />
                 <h1 className="text-2xl font">Desmontadores</h1>
               </div>
@@ -52,7 +52,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Evelador"
-                  className="max-h-52"
+                  className="md:max-h-52"
                 />
                 <h1 className="text-2xl font">Elevadores</h1>
               </div>
@@ -64,7 +64,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Rampa"
-                  className="max-h-52"
+                  className="md:max-h-52"
                 />
                 <h1 className="text-2xl font">Rampas</h1>
               </div>
@@ -76,7 +76,7 @@ const ChooseType = () => {
                   width={800}
                   height={600}
                   alt="Reciclador"
-                  className="max-h-52"
+                  className="md:max-h-52"
                 />
                 <h1 className="text-2xl font">Recicladores</h1>
               </div>
