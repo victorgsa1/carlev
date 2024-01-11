@@ -1,6 +1,5 @@
 "use client";
 
-import db from "@/db.json";
 import React, { useState } from "react";
 import { useCart } from "@/components/common/Cart/CartContext";
 import Image from "next/image";
@@ -10,6 +9,22 @@ export default function Page({ params }: { params: { modelo: string } }) {
   const { cart, addToCart } = useCart();
   const [inputValue, setInputValue] = useState<string>("");
   const [modelValue, setModelValue] = useState<string>("");
+
+  type AlinhadoresDatabase = {
+    alinhadores: {
+      modelos: {
+        [key: string]: {
+          modelName: string;
+          items: {
+            itemName: string;
+            archiveName: string;
+          }[];
+        };
+      };
+    };
+  };
+
+  const db: AlinhadoresDatabase = require("@/db.json");
 
   if (!db.alinhadores.modelos.hasOwnProperty(modelo)) {
     return <div className="mt-24">Modelo não encontrado</div>;
