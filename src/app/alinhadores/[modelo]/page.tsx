@@ -1,9 +1,24 @@
 "use client";
 
-import db from "@/db.json";
 import React, { useState } from "react";
 import { useCart } from "@/components/common/Cart/CartContext";
 import Image from "next/image";
+
+type AlinhadoresDatabase = {
+  alinhadores: {
+    modelos: {
+      [key: string]: {
+        modelName: string;
+        items: {
+          itemName: string;
+          archiveName: string;
+        }[];
+      };
+    };
+  };
+};
+
+const db: AlinhadoresDatabase = require("@/db.json");
 
 export default function Page({ params }: { params: { modelo: string } }) {
   const { modelo } = params;
@@ -15,7 +30,7 @@ export default function Page({ params }: { params: { modelo: string } }) {
     return <div className="mt-24">Modelo não encontrado</div>;
   }
 
-  const modeloData = db.alinhadores.modelos[`${modelo}`];
+  const modeloData = db.alinhadores.modelos[modelo];
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
