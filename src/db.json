@@ -125,68 +125,225 @@
           }
         ]
       },
-      "swa-2100": {
+      "prism": {
+        "modelName": "Prism",
+        "items": [
+          {
+            "itemName": "Fixador",
+            "archiveName": "fixador.png"
+          },
+          {
+            "itemName": "Kit Par Target",
+            "archiveName": "kitpartarget.png"
+          },
+          {
+            "itemName": "Plug Bluetooth",
+            "archiveName": "plugbluetooth.png"
+          },
+          {
+            "itemName": "Sensor",
+            "archiveName": "sensor.png"
+          },
+          {
+            "itemName": "WAP EAA337J80A",
+            "archiveName": "wapeaa-377j80a.png"
+          }
+        ]
+      },
+      "swa500visualinerlite": {
+        "modelName": "SWA-500 Visualiner Lite",
+        "items": [
+          {
+            "itemName": "Barra da Câmera",
+            "archiveName": "barradacamera.png"
+          },
+          {
+            "itemName": "Fixador Convencional",
+            "archiveName": "fixadorconvencional.png"
+          }
+        ]
+      },
+      "swa2100": {
         "modelName": "SWA-2100",
         "items": [
           {
-            "itemName": "CAM-CAM",
-            "archiveName": "cam-cam.webp"
-          },
-          {
-            "itemName": "CAM-TAR",
-            "archiveName": "cam-tar.webp"
-          },
-          {
-            "itemName": "AC100/AC200 Wheel Clamp",
-            "archiveName": "ac100ac200wheelclamp.webp"
-          },
-          {
-            "itemName": "EAS2105J294",
-            "archiveName": "EAS2105J294.webp"
+            "itemName": "EAS2105J29A",
+            "archiveName": "EAS2105J29A.png"
           },
           {
             "itemName": "Electrical Box",
-            "archiveName": "electrical-box.webp"
-          },
-          {
-            "itemName": "Electrical Shelf",
-            "archiveName": "electrical-shelf.webp"
-          },
-          {
-            "itemName": "KIOSK",
-            "archiveName": "kiosk.webp"
+            "archiveName": "electricalbox.png"
           },
           {
             "itemName": "Kit Tilt Beam Tower",
-            "archiveName": "kit-tilt-beam-tower.webp"
+            "archiveName": "kittiltbeamtower.png"
           },
           {
-            "itemName": "Left Hand Camera Arm",
-            "archiveName": "left-hand-camera-arm.webp"
+            "itemName": "Processor Board ProgrammeDV2100",
+            "archiveName": "PROCESSORBOARDPROGRAMMEDV2100.png"
           },
           {
-            "itemName": "Shelf Assembly v2100",
-            "archiveName": "shelf-assembly-v2100-els.webp"
+            "itemName": "Rim Clamp",
+            "archiveName": "rimclamp.png"
           },
           {
-            "itemName": "Slide Car",
-            "archiveName": "slide-car.webp"
+            "itemName": "Shelf Assembly v2100els",
+            "archiveName": "shelfassemblyv2100els.png"
           },
           {
             "itemName": "Tilt Mechanism",
-            "archiveName": "tilt-mechanism.webp"
-          },
-          {
-            "itemName": "Tower",
-            "archiveName": "tower.webp"
+            "archiveName": "tiltmechanism.png"
           },
           {
             "itemName": "Vector Câmera Beam",
-            "archiveName": "vector-camera-beam.webp"
+            "archiveName": "vectorcamerabeam.png"
           },
           {
-            "itemName": "Wheel Champ Vector",
-            "archiveName": "wheel-champ-vector.webp"
+            "itemName": "Wheel Clamp",
+            "archiveName": "wheelclamp.png"
+          }
+        ]
+      },
+      "swa2200sw2300visualinerII": {
+        "modelName": "SWA-2200, SWA2300, VisualinerII",
+        "items": [
+          {
+            "itemName": "Alvos",
+            "archiveName": "alvos.png"
+          },
+          {
+            "itemName": "Barra da Câmera",
+            "archiveName": "barradecamerafonte.png"
+          },
+          {
+            "itemName": "Fixador Convencional",
+            "archiveName": "fixadorconvencional.png"
+          },
+          {
+            "itemName": "Fixador Rápido",
+            "archiveName": "fixadorrapido.png"
+          },
+          {
+            "itemName": "Fixador Rápido 2",
+            "archiveName": "fixadorrapido2.png"
+          },
+          {
+            "itemName": "Torre da Câmera Móvel",
+            "archiveName": "torredacameramovel.png"
+          }
+        ]
+      },
+      "swa3300": {
+        "modelName": "SWA-3300",
+        "items": [
+          {
+            "itemName": "AC100/AC200 Wheel Clamp",
+            "archiveName": "ac100ac200wheelclamp.png"
+          },
+          {
+            "itemName": "AC400 Wheel Clamp",
+            "archiveName": "AC400WHEELCLAMP.png"
+          },
+          {
+            "itemName": "Cam Cam",
+            "archiveName": "camcam.png"
+          },
+          {
+            "itemName": "Cam Tar",
+            "archiveName": "camtar.png"
+          },
+          {
+            "itemName": "Electrical Shelf",
+            "archiveName": "electricalshelf.png"
+          },
+          {
+            "itemName": "KIOSK",
+            "archiveName": "kiosk.png"
+          },
+          {
+            "itemName": "Left Hand Camera Arm",
+            "archiveName": "lefthandcameraarm.png"
+          },
+          {
+            "itemName": "Right Hand Camera Arm",
+            "archiveName": "righthandcameraarm.png"
+          },
+          {
+            "itemName": "Slide Car",
+            "archiveName": "slidecar.png"
+          },
+          {
+            "itemName": "Tower",
+            "archiveName": "tower.png"
+          }
+        ]
+      },
+      "swa3400visualinerIII": {
+        "modelName": "SWA-3400",
+        "items": [
+          {
+            "itemName": "AC400 Wheel Clamp",
+            "archiveName": "ac400wheelclamp.png"
+          },
+          {
+            "itemName": "Base Tower",
+            "archiveName": "basetower.png"
+          },
+          {
+            "itemName": "Base Tower Assy",
+            "archiveName": "basetowerassy.png"
+          },
+          {
+            "itemName": "Base Tower Optional",
+            "archiveName": "basetoweroptional.png"
+          },
+          {
+            "itemName": "Cabinet",
+            "archiveName": "cabinet.png"
+          },
+          {
+            "itemName": "Cable Assy Camera Ultra",
+            "archiveName": "cablecableassycameraultra.png"
+          },
+          {
+            "itemName": "Cam Cam Assembly",
+            "archiveName": "camcamassembly.png"
+          },
+          {
+            "itemName": "Camera Pods",
+            "archiveName": "camerapods.png"
+          },
+          {
+            "itemName": "Cam Target Assembly",
+            "archiveName": "camtargetassembly.png"
+          },
+          {
+            "itemName": "Electrical Mount Plate Assy",
+            "archiveName": "electricalmountplateassy.png"
+          },
+          {
+            "itemName": "Kit USB Radio",
+            "archiveName": "kitusbradio.png"
+          },
+          {
+            "itemName": "Motor Gear Assembly",
+            "archiveName": "motorgearassembly.png"
+          },
+          {
+            "itemName": "Pod Car",
+            "archiveName": "podcar.png"
+          },
+          {
+            "itemName": "Power Box",
+            "archiveName": "powerbox.png"
+          },
+          {
+            "itemName": "XD Target Front",
+            "archiveName": "xdtargetfront.png"
+          },
+          {
+            "itemName": "XD Target Rear",
+            "archiveName": "xdtargetrear.png"
           }
         ]
       }
@@ -818,6 +975,70 @@
           {
             "itemName": "Controle Remoto",
             "archiveName": "controleremoto.webp"
+          }
+        ]
+      },
+      "aj1500": {
+        "modelName": "AJ1500",
+        "items": [
+          {
+            "itemName": "AJ 1500",
+            "archiveName": "aj1500.png"
+          },
+          {
+            "itemName": "Tampa Superior Montada",
+            "archiveName": "tampasuperiormontada.png"
+          },
+          {
+            "itemName": "Valvula do Macaco",
+            "archiveName": "valvuladomacaco.png"
+          }
+        ]
+      },
+      "aj1800": {
+        "modelName": "AJ1800 Macaco",
+        "items": [
+          {
+            "itemName": "AJ 1800",
+            "archiveName": "aj1800.png"
+          }
+        ]
+      },
+      "apr3500": {
+        "modelName": "APR 3500",
+        "items": [
+          {
+            "itemName": "APR 3500",
+            "archiveName": "apr3500.png"
+          },
+          {
+            "itemName": "Cilindro Pneumatico",
+            "archiveName": "cilindropneumatico.png"
+          },
+          {
+            "itemName": "Conjunto Lubrificador",
+            "archiveName": "conjuntolubrificador.png"
+          },
+          {
+            "itemName": "Controle Remoto",
+            "archiveName": "controleremoto.png"
+          },
+          {
+            "itemName": "Rampa Pneumatica",
+            "archiveName": "rampapneumatica.png"
+          }
+        ]
+      },
+      "sar9004": {
+        "modelName": "SAR 9004",
+        "items": [
+          {
+            "itemName": "Rampa Montada",
+            "archiveName": "rampamontada.png"
+          },
+          {
+            "itemName": "Peças Complementares",
+            "archiveName": "pecascomplementares.png"
           }
         ]
       }

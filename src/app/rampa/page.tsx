@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
 
-const modelos = ["hidraulica", "macacoaj", "pneumatica"];
+const modelos = ["aj1500", "aj1800macaco", "apr35000", "sar9004"];
 export default function Page() {
   return (
     <main className="mt-20">
@@ -31,16 +31,18 @@ export default function Page() {
                 as={`/rampa/${modelo}`}
               >
                 <div className="flex flex-row bg-zinc-100 rounded-md shadow-lg gap-8 p-2 w-full">
-                  <div className="flex border bg-zinc-50 shadow-md">
+                  <div className="flex bg-zinc-50">
                     <img
-                      src={`https://via.placeholder.com/300x300?text=${modelo.toUpperCase()}`}
+                      src={`https://placehold.co/600x400/F4F4F5/000?text=${modelo.toUpperCase()}&font=poppinstext=`}
                       width={300}
                       height={300}
                       alt="Rampas"
                     />
                   </div>
                   <div className="flex flex-col justify-center">
-                    <h1 className="text-4xl font-medium uppercase">{modelo}</h1>
+                    {/* <h1 className="text-sm font-medium uppercase">
+                      {modelos.join(", ")}
+                    </h1> */}
                   </div>
                 </div>
               </Link>
