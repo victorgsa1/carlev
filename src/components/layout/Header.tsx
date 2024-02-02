@@ -114,12 +114,12 @@ export default function Header() {
 
             <div className="flex">
               <a
-                href={data.redeSocial.facebook}
+                href={data.redeSocial.linkedIn}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3"
               >
-                <FaFacebookF />
+                <FaLinkedinIn />
               </a>
               <a
                 href={data.redeSocial.instagram}
@@ -161,6 +161,14 @@ export default function Header() {
                       alt={data.logoAlt}
                     />
                   </Link>
+                  <Image
+                    src={"/autorizada.png"}
+                    width={90}
+                    height={189}
+                    className="cursor-pointer p-4"
+                    title={"Autorizada Sun"}
+                    alt={"Sun Assistência Técnica Autorizada"}
+                  />
                 </div>
                 <div className="hidden lg:block">
                   <div className=" flex items-center space-x-4 font-medium">

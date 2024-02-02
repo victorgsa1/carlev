@@ -124,6 +124,71 @@
             "archiveName": "wheel-champ-vector.webp"
           }
         ]
+      },
+      "swa-2100": {
+        "modelName": "SWA-2100",
+        "items": [
+          {
+            "itemName": "CAM-CAM",
+            "archiveName": "cam-cam.webp"
+          },
+          {
+            "itemName": "CAM-TAR",
+            "archiveName": "cam-tar.webp"
+          },
+          {
+            "itemName": "AC100/AC200 Wheel Clamp",
+            "archiveName": "ac100ac200wheelclamp.webp"
+          },
+          {
+            "itemName": "EAS2105J294",
+            "archiveName": "EAS2105J294.webp"
+          },
+          {
+            "itemName": "Electrical Box",
+            "archiveName": "electrical-box.webp"
+          },
+          {
+            "itemName": "Electrical Shelf",
+            "archiveName": "electrical-shelf.webp"
+          },
+          {
+            "itemName": "KIOSK",
+            "archiveName": "kiosk.webp"
+          },
+          {
+            "itemName": "Kit Tilt Beam Tower",
+            "archiveName": "kit-tilt-beam-tower.webp"
+          },
+          {
+            "itemName": "Left Hand Camera Arm",
+            "archiveName": "left-hand-camera-arm.webp"
+          },
+          {
+            "itemName": "Shelf Assembly v2100",
+            "archiveName": "shelf-assembly-v2100-els.webp"
+          },
+          {
+            "itemName": "Slide Car",
+            "archiveName": "slide-car.webp"
+          },
+          {
+            "itemName": "Tilt Mechanism",
+            "archiveName": "tilt-mechanism.webp"
+          },
+          {
+            "itemName": "Tower",
+            "archiveName": "tower.webp"
+          },
+          {
+            "itemName": "Vector Câmera Beam",
+            "archiveName": "vector-camera-beam.webp"
+          },
+          {
+            "itemName": "Wheel Champ Vector",
+            "archiveName": "wheel-champ-vector.webp"
+          }
+        ]
       }
     },
     "imagesPath": "/img/alinhadores/"
