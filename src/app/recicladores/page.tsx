@@ -31,17 +31,18 @@ export default function Page() {
                 as={`/recicladores/${modelo}`}
               >
                 <div className="flex flex-row bg-zinc-100 rounded-md shadow-lg gap-8 p-2 w-full">
-                  <div className="flex border bg-zinc-50 shadow-md">
-                    <Image
-                      src={"/img/recicladora.png"}
+                  <div className="flex bg-zinc-50">
+                    <img
+                      src={`https://placehold.co/600x400/F4F4F5/000?text=${modelo.toUpperCase()}&font=poppinstext=`}
                       width={300}
                       height={300}
                       alt="Recicladores"
                     />
                   </div>
+                  {/* 
                   <div className="flex flex-col justify-center">
                     <h1 className="text-4xl font-medium uppercase">{modelo}</h1>
-                  </div>
+                  </div> */}
                 </div>
               </Link>
             ))}
