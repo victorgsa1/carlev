@@ -45,7 +45,7 @@ export default function Page() {
                       src={`https://placehold.co/600x400/F4F4F5/000?text=${modelo.toUpperCase()}&font=poppinstext=`}
                       width={300}
                       height={300}
-                      alt="Rampas"
+                      alt="Balanceadores"
                     />
                   </div>
                   {/* <div className="flex flex-col justify-center">
