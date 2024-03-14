@@ -3,8 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
 
+const rootFontStyle = {
+  fontSize: '30px'
+};
+
+
+
 const modelos = [
   "europa50",
+  "swb-50",
   "swb-100",
   "swb-200",
   "swb-400",
@@ -12,6 +19,7 @@ const modelos = [
   "swb-800",
   "swb-2000",
   "systemiv",
+  "systemii",
 ];
 export default function Page() {
   return (
@@ -40,14 +48,9 @@ export default function Page() {
                 as={`/balanceadores/${modelo}`}
               >
                 <div className="flex flex-row bg-zinc-100 rounded-md shadow-lg gap-8 p-2 w-full">
-                  <div className="flex bg-zinc-50">
-                    <img
-                      src={`https://placehold.co/600x400/F4F4F5/000?text=${modelo.toUpperCase()}&font=poppinstext=`}
-                      width={300}
-                      height={300}
-                      alt="Rampas"
-                    />
-                  </div>
+                  
+                    <div style={rootFontStyle} className="ml-5 mt-5 mb-5"> <h2 >{modelo.toUpperCase()}</h2> </div>
+                  
                   {/* <div className="flex flex-col justify-center">
                     <h1 className="text-4xl font-medium uppercase">{modelo}</h1>
                   </div> */}

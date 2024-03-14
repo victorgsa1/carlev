@@ -25,6 +25,7 @@ export default function Page({ params }: { params: { modelo: string } }) {
   const { cart, addToCart } = useCart();
   const [inputValue, setInputValue] = useState<string>("");
   const [modelValue, setModelValue] = useState<string>("");
+  const car: any = 0;
 
   if (!db.alinhadores.modelos.hasOwnProperty(modelo)) {
     return <div className="mt-24">Modelo não encontrado</div>;
@@ -38,7 +39,7 @@ export default function Page({ params }: { params: { modelo: string } }) {
   };
 
   const handleAddToCart = () => {
-    console.log("handleAddToCart chamado");
+    console.log("handleAddToCart chamado"+car);
 
     if (!inputValue || !modelValue) {
       return;
@@ -78,6 +79,7 @@ export default function Page({ params }: { params: { modelo: string } }) {
                       value={inputValue}
                       data-model={item.itemName}
                       placeholder="Digite o código do item"
+                      
                     />
                     <button
                       onClick={handleAddToCart}

@@ -146,12 +146,12 @@
           },
           {
             "itemName": "WAP EAA337J80A",
-            "archiveName": "wapeaa-377j80a.png"
+            "archiveName": "wapeaa-337j80a.png"
           }
         ]
       },
-      "swa500visualinerlite": {
-        "modelName": "SWA-500 Visualiner Lite",
+      "swa-500": {
+        "modelName": "SWA-500",
         "items": [
           {
             "itemName": "Barra da Câmera",
@@ -163,7 +163,33 @@
           }
         ]
       },
-      "swa2100": {
+      "visualiner": {
+        "modelName": "Visualiner",
+        "items": [
+          {
+            "itemName": "Barra da Câmera",
+            "archiveName": "barradacamera.png"
+          },
+          {
+            "itemName": "Fixador Convencional",
+            "archiveName": "fixadorconvencional.png"
+          }
+        ]
+      },
+      "lite": {
+        "modelName": "Lite",
+        "items": [
+          {
+            "itemName": "Barra da Câmera",
+            "archiveName": "barradacamera.png"
+          },
+          {
+            "itemName": "Fixador Convencional",
+            "archiveName": "fixadorconvencional.png"
+          }
+        ]
+      },
+      "swa-2100": {
         "modelName": "SWA-2100",
         "items": [
           {
@@ -204,8 +230,8 @@
           }
         ]
       },
-      "swa2200sw2300visualinerII": {
-        "modelName": "SWA-2200, SWA2300, VisualinerII",
+      "swa-2200": {
+        "modelName": "SWA-2200",
         "items": [
           {
             "itemName": "Alvos",
@@ -233,7 +259,67 @@
           }
         ]
       },
-      "swa3300": {
+
+      "sw-2300": {
+        "modelName": "SWA-2300",
+        "items": [
+          {
+            "itemName": "Alvos",
+            "archiveName": "alvos.png"
+          },
+          {
+            "itemName": "Barra da Câmera",
+            "archiveName": "barradecamerafonte.png"
+          },
+          {
+            "itemName": "Fixador Convencional",
+            "archiveName": "fixadorconvencional.png"
+          },
+          {
+            "itemName": "Fixador Rápido",
+            "archiveName": "fixadorrapido.png"
+          },
+          {
+            "itemName": "Fixador Rápido 2",
+            "archiveName": "fixadorrapido2.png"
+          },
+          {
+            "itemName": "Torre da Câmera Móvel",
+            "archiveName": "torredacameramovel.png"
+          }
+        ]
+      },
+
+      "visualinerII": {
+        "modelName": "VisualinerII",
+        "items": [
+          {
+            "itemName": "Alvos",
+            "archiveName": "alvos.png"
+          },
+          {
+            "itemName": "Barra da Câmera",
+            "archiveName": "barradecamerafonte.png"
+          },
+          {
+            "itemName": "Fixador Convencional",
+            "archiveName": "fixadorconvencional.png"
+          },
+          {
+            "itemName": "Fixador Rápido",
+            "archiveName": "fixadorrapido.png"
+          },
+          {
+            "itemName": "Fixador Rápido 2",
+            "archiveName": "fixadorrapido2.png"
+          },
+          {
+            "itemName": "Torre da Câmera Móvel",
+            "archiveName": "torredacameramovel.png"
+          }
+        ]
+      },
+      "swa-3300": {
         "modelName": "SWA-3300",
         "items": [
           {
@@ -278,12 +364,81 @@
           }
         ]
       },
-      "swa3400visualinerIII": {
+      "swa-3400": {
         "modelName": "SWA-3400",
         "items": [
           {
             "itemName": "AC400 Wheel Clamp",
-            "archiveName": "ac400wheelclamp.png"
+            "archiveName": "ac400wheelclapm.png"
+          },
+          {
+            "itemName": "Base Tower",
+            "archiveName": "basetower.png"
+          },
+          {
+            "itemName": "Base Tower Assy",
+            "archiveName": "basetowerassy.png"
+          },
+          {
+            "itemName": "Base Tower Optional",
+            "archiveName": "basetoweroptional.png"
+          },
+          {
+            "itemName": "Cabinet",
+            "archiveName": "cabinet.png"
+          },
+          {
+            "itemName": "Cable Assy Camera Ultra",
+            "archiveName": "cablecableassycameraultra.png"
+          },
+          {
+            "itemName": "Cam Cam Assembly",
+            "archiveName": "camcamassembly.png"
+          },
+          {
+            "itemName": "Camera Pods",
+            "archiveName": "camerapods.png"
+          },
+          {
+            "itemName": "Cam Target Assembly",
+            "archiveName": "camtargetassembly.png"
+          },
+          {
+            "itemName": "Electrical Mount Plate Assy",
+            "archiveName": "electricalmountplateassy.png"
+          },
+          {
+            "itemName": "Kit USB Radio",
+            "archiveName": "kitusbradio.png"
+          },
+          {
+            "itemName": "Motor Gear Assembly",
+            "archiveName": "motorgearassembly.png"
+          },
+          {
+            "itemName": "Pod Car",
+            "archiveName": "podcar.png"
+          },
+          {
+            "itemName": "Power Box",
+            "archiveName": "powerbox.png"
+          },
+          {
+            "itemName": "XD Target Front",
+            "archiveName": "xdtargetfront.png"
+          },
+          {
+            "itemName": "XD Target Rear",
+            "archiveName": "xdtargetrear.png"
+          }
+        ]
+      },
+      "visualinerIII": {
+        "modelName": "VisualinerIII",
+        "items": [
+          {
+            "itemName": "AC400 Wheel Clamp",
+            "archiveName": "ac400wheelclapm.png"
           },
           {
             "itemName": "Base Tower",
@@ -350,7 +505,34 @@
     },
     "imagesPath": "/img/alinhadores/"
   },
-  "alinhadordefarol": {},
+  "alinhadorfarol": {
+    "description": "Alinhadorfarol",
+      "modelos": {
+        "ha-600": {
+          "modelName":"ha-600",
+          "items":[
+            {
+              "itemName": "alinhador de faroisc luximetro",
+              "archiveName": "alinhadordefaroiscluximetro.webp"
+            },
+            {
+              "itemName": "caixa do visor e suporte mnotado",
+              "archiveName": "caixadovisoresuportemnotado.webp"
+            },
+            {
+              "itemName": "caixa montada",
+              "archiveName": "caixamontada.webp"
+            },
+            {
+              "itemName": "tampa da caixa montada",
+              "archiveName": "tampadacaixamontada.webp"
+            }
+          ]
+        }
+      },
+      "imagesPath": "/img/alinhadorfarol/"
+  },
+  
   "balanceadores": {
     "description": "Alinhador",
     "modelos": {
@@ -383,8 +565,70 @@
           }
         ]
       },
+      "swb-50": {
+        "modelName": "swb-50",
+        "items": [
+          {
+            "itemName": "Capa de Proteção da Roda",
+            "archiveName": "capadeprotecaodaroda.webp"
+          },
+          {
+            "itemName": "Conjunto Vibrador",
+            "archiveName": "conjuntovibrador.webp"
+          },
+          {
+            "itemName": "Display Capa Porta Pesos",
+            "archiveName": "displaycapaportapesos.webp"
+          },
+          {
+            "itemName": "Display PCI",
+            "archiveName": "displaypci.webp"
+          },
+          {
+            "itemName": "Escala de Medição",
+            "archiveName": "escalademedicao.webp"
+          },
+          {
+            "itemName": "Gabinete do Balanceador",
+            "archiveName": "gabinetedobalanceador.webp"
+          }
+        ]
+      },
       "swb-100": {
         "modelName": "SWB-100",
+        "items": [
+          {
+            "itemName": "EAZ0070G64A",
+            "archiveName": "EAZ0070G64A.webp"
+          },
+          {
+            "itemName": "EAZ0088G16A",
+            "archiveName": "EAZ0088G16A.webp"
+          },
+          {
+            "itemName": "EAZ0088G23A",
+            "archiveName": "EAZ0088G23A.webp"
+          },
+          {
+            "itemName": "EAZ0088G87A",
+            "archiveName": "eaz0088g87a.webp"
+          },
+          {
+            "itemName": "EAZ0088G88A",
+            "archiveName": "EAZ0088G88A.webp"
+          },
+          {
+            "itemName": "EAZ0088G89A",
+            "archiveName": "EAZ0088G89A.webp"
+          },
+          {
+            "itemName": "EAZ0088G90A",
+            "archiveName": "EAZ0088G90A.webp"
+          }
+        ]
+      },
+      "systemii": {
+        "modelName": "SisteII",
         "items": [
           {
             "itemName": "EAZ0070G64A",
@@ -633,7 +877,7 @@
           },
           {
             "itemName": "Capa Porta peso e câmera interna",
-            "archiveName": "capaportapesocamerainterna.webp"
+            "archiveName": "capaportapesoecamerainterna.webp"
           },
           {
             "itemName": "Conjunto Vibratório",
@@ -661,7 +905,7 @@
           },
           {
             "itemName": "Placa EPCs",
-            "archiveName": "placaepcs.webp"
+            "archiveName": "placasepcs.webp"
           },
           {
             "itemName": "Torre do Monitor",
@@ -682,11 +926,11 @@
           },
           {
             "itemName": "Conjunto Medidor 2D",
-            "archiveName": "conjuntomedidor.webp"
+            "archiveName": "conjuntomedidor2d.webp"
           },
           {
             "itemName": "Conjunto Medidor 2D Automático",
-            "archiveName": "conjuntomedidorautomatico.webp"
+            "archiveName": "conjuntomedidor2dautomatico.webp"
           },
           {
             "itemName": "Conjunto Vibrador",
@@ -694,7 +938,7 @@
           },
           {
             "itemName": "Gabinete de Sistema Vibratório",
-            "archiveName": "gabinetedesistemavibratorio.webp"
+            "archiveName": "gabinetedosistemavibratorio.webp"
           },
           {
             "itemName": "Medidor Externo 3D",
@@ -729,16 +973,185 @@
     },
     "imagesPath": "/img/balanceadores/"
   },
-  "chave": {},
+  "chave": {
+    "description": "Chave de Impacto",
+    "modelos": {
+      "sunb231": {
+        "modelName": "sunb231",
+        "items": [
+          {
+            "itemName": "Chave",
+            "archiveName": "sunb231.webp"
+          }
+        ]
+      }
+    },
+    "imagesPath": "/img/chave/"
+  },
+  "procut": {
+    "description": "ProCut",
+    "modelos": {
+      "pdf": {
+        "modelName": "pdf",
+        "items": [
+          {
+            "itemName": "PROCUT-01",
+            "archiveName": "PROCUT_page-0001.jpg"
+          },
+          {
+            "itemName": "PROCUT-02",
+            "archiveName": "PROCUT_page-0002.jpg"
+          },
+          {
+            "itemName": "PROCUT-03",
+            "archiveName": "PROCUT_page-0002 - Copia.jpg"
+          },
+          {
+            "itemName": "PROCUT-04",
+            "archiveName": "PROCUT_page-0003.jpg"
+          },
+          {
+            "itemName": "PROCUT-05",
+            "archiveName": "PROCUT_page-0003 - Copia.jpg"
+          },
+          {
+            "itemName": "PROCUT-06",
+            "archiveName": "PROCUT_page-0004.jpg"
+          },
+          {
+            "itemName": "PROCUT-07",
+            "archiveName": "PROCUT_page-0004 - Copia.jpg"
+          },
+          {
+            "itemName": "PROCUT-08",
+            "archiveName": "PROCUT_page-0005.jpg"
+          },
+          {
+            "itemName": "PROCUT-09",
+            "archiveName": "PROCUT_page-0005 - Copia.jpg"
+          },
+          {
+            "itemName": "PROCUT-10",
+            "archiveName": "PROCUT_page-0006.jpg"
+          },
+          {
+            "itemName": "PROCUT-11",
+            "archiveName": "PROCUT_page-0006 - Copia.jpg"
+          },
+          {
+            "itemName": "PROCUT-12",
+            "archiveName": "PROCUT_page-0007.jpg"
+          },
+          {
+            "itemName": "PROCUT-13",
+            "archiveName": "PROCUT_page-0007 - Copia.jpg"
+          },
+          {
+            "itemName": "PROCUT-14",
+            "archiveName": "PROCUT_page-0008.jpg"
+          }
+        ]
+      },
+      "procut": {
+        "modelName": "procut",
+        "items": [
+          {
+            "itemName": "PROCUT-01",
+            "archiveName": "1.jpg"
+          },
+          {
+            "itemName": "PROCUT-02",
+            "archiveName": "2.jpg"
+          },
+          {
+            "itemName": "PROCUT-03",
+            "archiveName": "3.jpg"
+          },
+          {
+            "itemName": "PROCUT-04",
+            "archiveName": "4.jpg"
+          },
+          {
+            "itemName": "PROCUT-05",
+            "archiveName": "5.jpg"
+          },
+          {
+            "itemName": "PROCUT-06",
+            "archiveName": "6.jpg"
+          }
+
+        ]
+      }
+    },
+    "imagesPath": "/img/chave/"
+  },
   "desmontadora": {
     "description": "Desmontadora",
     "modelos": {
+      "acessorios": {
+        "modelName": "acessorios",
+        "items": [
+          {
+            "itemName": "acessorios",
+            "archiveName": "ACESSORIOS.jpg"
+          }
+        ]
+      },
       "stc-210k": {
         "modelName": "STC 210K",
         "items": [
           {
-            "itemName": "Desmontadora",
-            "archiveName": "desmontadora.webp"
+            "itemName": "Desmontadora01",
+            "archiveName": "STC-210K_page-0001.jpg"
+          },
+          {
+            "itemName": "Desmontadora02",
+            "archiveName": "STC-210K_page-0002.jpg"
+          },
+          {
+            "itemName": "Desmontadora03",
+            "archiveName": "STC-210K_page-0004.jpg"
+          },
+          {
+            "itemName": "Desmontadora04",
+            "archiveName": "STC-210K_page-0006.jpg"
+          },
+          {
+            "itemName": "Desmontadora05",
+            "archiveName": "STC-210K_page-0007.jpg"
+          },
+          {
+            "itemName": "Desmontadora06",
+            "archiveName": "STC-210K_page-0008.jpg"
+          }
+        ]
+      },
+      "stc-210": {
+        "modelName": "STC 210",
+        "items": [
+          {
+            "itemName": "Desmontadora01",
+            "archiveName": "STC-210_page-0001.jpg"
+          },
+          {
+            "itemName": "Desmontadora02",
+            "archiveName": "STC-210_page-0002.jpg"
+          },
+          {
+            "itemName": "Desmontadora03",
+            "archiveName": "STC-210_page-0004.jpg"
+          },
+          {
+            "itemName": "Desmontadora04",
+            "archiveName": "STC-210_page-0006.jpg"
+          },
+          {
+            "itemName": "Desmontadora05",
+            "archiveName": "STC-210_page-0010.jpg"
+          },
+          {
+            "itemName": "Desmontadora06",
+            "archiveName": "STC-210_page-0012.jpg"
           }
         ]
       },
@@ -807,8 +1220,46 @@
           },
           {
             "itemName": "Suporte de Rolo de Depressão",
-            "archiveName": "suportederolodedepressao.webp"
+            "archiveName": "suportederolodepressao.webp"
           }
+        ]
+      },
+      "stc-300": {
+        "modelName": "STC-300",
+        "items": [
+          {
+            "itemName": "stc 300-01",
+            "archiveName": "PARTES STC-300.png"
+          },
+          {
+            "itemName": "stc 300-02",
+            "archiveName": "PARTES.2 STC-300.png"
+          },
+          {
+            "itemName": "Cabinet assemble",
+            "archiveName": "STC- 300_page-0001.jpg"
+          },
+          {
+            "itemName": "Turntable assemble",
+            "archiveName": "STC- 300_page-0003.jpg"
+          },
+          {
+            "itemName": "Motor assemble",
+            "archiveName": "STC- 300_page-0004 - Copia.jpg"
+          },
+          {
+            "itemName": "Revolving assemble",
+            "archiveName": "STC- 300_page-0004.jpg"
+          },
+          {
+            "itemName": "Gear Box assemble",
+            "archiveName": "STC- 300_page-0005.jpg"
+          },
+          {
+            "itemName": "MH ASSY",
+            "archiveName": "STC- 300_page-0006.jpg"
+          }
+      
         ]
       },
       "stc-340p": {
@@ -908,6 +1359,166 @@
             "archiveName": "torredobraco.webp"
           }
         ]
+      },
+      "stc-1000": {
+        "modelName": "STC 1000",
+        "items": [
+          {
+            "itemName": "Importada 01",
+            "archiveName": "STC-1000 IMPORTADA_page-0001.jpg"
+          },
+          {
+            "itemName": "Importada 02",
+            "archiveName": "STC-1000 IMPORTADA_page-0002.jpg"
+          },
+          {
+            "itemName": "Importada 03",
+            "archiveName": "STC-1000 IMPORTADA_page-0003.jpg"
+          },
+          {
+            "itemName": "Importada 04",
+            "archiveName": "STC-1000 IMPORTADA_page-0004.jpg"
+          },
+          {
+            "itemName": "Importada 05",
+            "archiveName": "STC-1000 IMPORTADA_page-0005.jpg"
+          },
+          {
+            "itemName": "Importada 06",
+            "archiveName": "STC-1000 IMPORTADA_page-0006.jpg"
+          },
+          {
+            "itemName": "Importada 07",
+            "archiveName": "STC-1000 IMPORTADA_page-0007.jpg"
+          },
+          {
+            "itemName": "Importada 08",
+            "archiveName": "STC-1000 IMPORTADA_page-0008.jpg"
+          },
+          {
+            "itemName": "Importada 09",
+            "archiveName": "STC-1000 IMPORTADA_page-0009.jpg"
+          },
+          {
+            "itemName": "Importada 10",
+            "archiveName": "STC-1000 IMPORTADA_page-0010.jpg"
+          },
+          {
+            "itemName": "Nacional 01",
+            "archiveName": "STC-1000BR NACIONAL_page-0001 - Copia.jpg"
+          },
+          {
+            "itemName": "Nacional 02",
+            "archiveName": "STC-1000BR NACIONAL_page-0001.jpg"
+          },
+          {
+            "itemName": "Patim desmontador completo",
+            "archiveName": "STC-1000BR NACIONAL_page-0002 - Copia.jpg"
+          },
+          {
+            "itemName": "Nacional 04",
+            "archiveName": "STC-1000BR NACIONAL_page-0002.jpg"
+          },
+          {
+            "itemName": "Coluna Desmontadora",
+            "archiveName": "STC-1000BR NACIONAL_page-0003 - Copia.jpg"
+          },
+          {
+            "itemName": "Braço do destalador",
+            "archiveName": "STC-1000BR NACIONAL_page-0003.jpg"
+          },
+          {
+            "itemName": "Comando",
+            "archiveName": "STC-1000BR NACIONAL_page-0004 - Copia.jpg"
+          },
+          {
+            "itemName": "Rodoar",
+            "archiveName": "STC-1000BR NACIONAL_page-0004.jpg"
+          },
+          {
+            "itemName": "Pisão de mesa",
+            "archiveName": "STC-1000BR NACIONAL_page-0005 - Copia.jpg"
+          },
+          {
+            "itemName": "Gaxeta/Haste Pisão de mesa",
+            "archiveName": "STC-1000BR NACIONAL_page-0005.jpg"
+          },
+          {
+            "itemName": "Pisão do destalonador",
+            "archiveName": "STC-1000BR NACIONAL_page-0006 - Copia.jpg"
+          },
+          {
+            "itemName": "Gaxeta/Haste Pisão do Destalonador",
+            "archiveName": "STC-1000BR NACIONAL_page-0006.jpg"
+          }
+          
+     
+        ]
+      },
+      "stc-5345": {
+        "modelName": "STC 5345",
+        "items": [
+          {
+            "itemName": "STC 5345-01",
+            "archiveName": "STC- 5345_page-0001.jpg"
+          },
+          {
+            "itemName": "STC 5345-02",
+            "archiveName": "STC- 5345_page-0004.jpg"
+          },
+          {
+            "itemName": "STC 5345-03",
+            "archiveName": "STC- 5345_page-0008.jpg"
+          },
+          {
+            "itemName": "STC 5345-04",
+            "archiveName": "STC- 5345_page-0010.jpg"
+          },
+          {
+            "itemName": "STC 5345-05",
+            "archiveName": "STC- 5345_page-0012.jpg"
+          },
+          {
+            "itemName": "STC 5345-06",
+            "archiveName": "STC- 5345_page-0014.jpg"
+          },
+          {
+            "itemName": "STC 5345-07",
+            "archiveName": "STC- 5345_page-0018.jpg"
+          },
+          {
+            "itemName": "STC 5345-08",
+            "archiveName": "STC- 5345_page-0021.jpg"
+          },
+          {
+            "itemName": "STC 5345-09",
+            "archiveName": "STC- 5345_page-0024.jpg"
+          },
+          {
+            "itemName": "STC 5345-10",
+            "archiveName": "STC- 5345_page-0028.jpg"
+          },
+          {
+            "itemName": "STC 5345-11",
+            "archiveName": "STC- 5345_page-0030.jpg"
+          },
+          {
+            "itemName": "STC 5345-12",
+            "archiveName": "STC- 5345_page-0033.jpg"
+          },
+          {
+            "itemName": "STC 5345-13",
+            "archiveName": "STC- 5345_page-0035.jpg"
+          },
+          {
+            "itemName": "STC 5345-14",
+            "archiveName": "STC- 5345_page-0037.jpg"
+          },
+          {
+            "itemName": "STC 5345-15",
+            "archiveName": "STC- 5345_page-0040.jpg"
+          }
+        ]
       }
     },
     "imagesPath": "/img/desmontadora/"
@@ -932,57 +1543,241 @@
             "archiveName": "elevador.webp"
           }
         ]
+      },
+      "s3000mid": {
+        "modelName": "s3000mid",
+        "items": [
+          {
+            "itemName": "Vista Explodida",
+            "archiveName": "SL-3500_page-0001.jpg"
+          }
+        ]
+      },
+      "sl-3500": {
+        "modelName": "sl-3500",
+        "items": [
+          {
+            "itemName": "Vista Explodida",
+            "archiveName": "SL-3500_page-0001.jpg"
+          },
+          {
+            "itemName": "sl-3500-02",
+            "archiveName": "SL-3500_page-0002.jpg"
+          },
+          {
+            "itemName": "sl-3500-03",
+            "archiveName": "SL-3500_page-0003.jpg"
+          },
+          {
+            "itemName": "sl-3500-04",
+            "archiveName": "SL-3500_page-0004.jpg"
+          },
+          {
+            "itemName": "Painel de controle",
+            "archiveName": "SL-3500_page-0006.jpg"
+          }
+        ]
+      },
+      "ssl-3100": {
+        "modelName": "ssl-3100",
+        "items": [
+          {
+            "itemName": "ssl-3100 -01",
+            "archiveName": "SSL-3100_page-0001.jpg"
+          },
+          {
+            "itemName": "ssl-3100 -02",
+            "archiveName": "SSL-3100_page-0002.jpg"
+          },
+          {
+            "itemName": "ssl-3100 -03",
+            "archiveName": "SSL-3100_page-0004.jpg"
+          },
+          {
+            "itemName": "ssl-3100 -04",
+            "archiveName": "SSL-3100_page-0005.jpg"
+          },
+          {
+            "itemName": "ssl-3100 -05",
+            "archiveName": "SSL-3100_page-0009.jpg"
+          },
+          {
+            "itemName": "ssl-3100 -06",
+            "archiveName": "SSL-3100_page-0010.jpg"
+          }
+         
+        ]
+      },
+      "ssl-3200": {
+        "modelName": "ssl-3200",
+        "items": [
+          {
+            "itemName": "Vista Explodida",
+            "archiveName": "SSL-3200_page-0001.jpg"
+          },
+          {
+            "itemName": "ssl-3200-02",
+            "archiveName": "SSL-3200_page-0002.jpg"
+          },
+          {
+            "itemName": "ssl-3200-03",
+            "archiveName": "sSL-3200_page-0003.jpg"
+          },
+          {
+            "itemName": "ssl-3200-04",
+            "archiveName": "SSL-3200_page-0004.jpg"
+          },
+          {
+            "itemName": "Painel de controle",
+            "archiveName": "SSL-3200_page-0006.jpg"
+          }
+        ]
+      },
+      "ssl-3500": {
+        "modelName": "ssl-3500",
+        "items": [
+          {
+            "itemName": "ssl-3500 -01",
+            "archiveName": "SSL-3500_page-0001.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -02",
+            "archiveName": "SSL-3500_page-0002.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -03",
+            "archiveName": "SSL-3500_page-0003.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -04",
+            "archiveName": "SSL-3500_page-0005.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -05",
+            "archiveName": "SSL-3500_page-0006.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -05",
+            "archiveName": "SSL-3500_page-0007.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -06",
+            "archiveName": "SSL-3500_page-0008 - Copia.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -07",
+            "archiveName": "SSL-3500_page-0009.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -08",
+            "archiveName": "SSL-3500_page-0010.jpg"
+          },
+          {
+            "itemName": "ssl-3500 -09",
+            "archiveName": "SSL-3500_page-0011.jpg"
+          }
+        ]
+      },
+      "ssl-3500p": {
+        "modelName": "ssl-3500p",
+        "items": [
+          {
+            "itemName": "ssl-3500p -01",
+            "archiveName": "SSL- 3500P_page-0001.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -02",
+            "archiveName": "SSL- 3500P_page-0002.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -03",
+            "archiveName": "SSL- 3500P_page-0003.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -04",
+            "archiveName": "SSL- 3500P_page-0004.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -05",
+            "archiveName": "SSL- 3500P_page-0006.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -05",
+            "archiveName": "SSL- 3500P_page-0007.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -06",
+            "archiveName": "SSL- 3500P_page-0008.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -07",
+            "archiveName": "SSL- 3500P_page-0009.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -08",
+            "archiveName": "SSL- 3500P_page-0010.jpg"
+          },
+          {
+            "itemName": "ssl-3500p -09",
+            "archiveName": "SSL- 3500P_page-0011.jpg"
+          }
+        ]
+      },
+      "ssl-5000": {
+        "modelName": "ssl-5000",
+        "items": [
+          {
+            "itemName": "ssl-5000 -01",
+            "archiveName": "SSL-5000_page-0001.jpg"
+          },
+          {
+            "itemName": "ssl-5000 -02",
+            "archiveName": "SSL-5000_page-0002.jpg"
+          },
+          {
+            "itemName": "ssl-5000 -03",
+            "archiveName": "SSL-5000_page-0004.jpg"
+          },
+          {
+            "itemName": "ssl-5000 -04",
+            "archiveName": "SSL-5000_page-0005.jpg"
+          },
+          {
+            "itemName": "ssl-5000 -05",
+            "archiveName": "SSL-5000_page-0006.jpg"
+          },
+          {
+            "itemName": "ssl-5000 -06",
+            "archiveName": "SSL-5000_page-0008.jpg"
+          },
+          {
+            "itemName": "ssl-5000 -07",
+            "archiveName": "SSL-5000_page-0009.jpg"
+          },
+          {
+            "itemName": "ssl-5000 -08",
+            "archiveName": "SSL-5000_page-0010.jpg"
+          },
+        
+          {
+            "itemName": "ssl-5000 -09",
+            "archiveName": "SSL-5000_page-0012.jpg"
+          }
+        ]
       }
     },
+
     "imagesPath": "/img/elevadores/"
   },
   "rampa": {
     "description": "Rampa",
     "modelos": {
-      "hidraulica": {
-        "modelName": "Hidráulica",
+      
+      "macaco-aj-1500": {
+        "modelName": "macaco-aj-1500",
         "items": [
           {
-            "itemName": "Peças Complementares SAR 9004",
-            "archiveName": "pecascomplementaresSAR9004.webp"
-          },
-          {
-            "itemName": "SAR 9004(Nacional Nova)",
-            "archiveName": "SAR-9004nacionalnova.webp"
-          }
-        ]
-      },
-      "macacoaj": {
-        "modelName": "Macaco AJ",
-        "items": [
-          {
-            "itemName": "AJ 1800",
-            "archiveName": "aj1800.webp"
-          }
-        ]
-      },
-      "pneumatica": {
-        "modelName": "Pneumática",
-        "items": [
-          {
-            "itemName": "Cilindro Pneumatico",
-            "archiveName": "cilindropneumatico.webp"
-          },
-          {
-            "itemName": "Conjunto Lubrificador",
-            "archiveName": "conjuntolubrificador.webp"
-          },
-          {
-            "itemName": "Controle Remoto",
-            "archiveName": "controleremoto.webp"
-          }
-        ]
-      },
-      "aj1500": {
-        "modelName": "AJ1500",
-        "items": [
-          {
-            "itemName": "AJ 1500",
+            "itemName": "macaco-aj-1500",
             "archiveName": "aj1500.png"
           },
           {
@@ -995,16 +1790,16 @@
           }
         ]
       },
-      "aj1800": {
-        "modelName": "AJ1800 Macaco",
+      "macaco-aj-1800": {
+        "modelName": "macaco-aj-1800",
         "items": [
           {
-            "itemName": "AJ 1800",
+            "itemName": "macaco-aj-1800",
             "archiveName": "aj1800.png"
           }
         ]
       },
-      "apr3500": {
+      "apr-3500": {
         "modelName": "APR 3500",
         "items": [
           {
@@ -1029,7 +1824,29 @@
           }
         ]
       },
-      "sar9004": {
+      "apr-3500p": {
+        "modelName": "APR 3500p",
+        "items": [
+          {
+            "itemName": "APR 3500p-01",
+            "archiveName": "APR-3500P_page-0001.jpg"
+          },
+          {
+            "itemName": "APR 3500p-02",
+            "archiveName": "APR-3500P_page-0003.jpg"
+          },
+          {
+            "itemName": "APR 3500p-03",
+            "archiveName": "APR-3500P_page-0004.jpg"
+          },
+          {
+            "itemName": "Controle Remoto",
+            "archiveName": "APR-3500P_page-0005.jpg"
+          }
+         
+        ]
+      },
+      "sar-9004": {
         "modelName": "SAR 9004",
         "items": [
           {
@@ -1052,12 +1869,16 @@
         "modelName": "ECO 1500-2500",
         "items": [
           {
+            "itemName": "ECO 1500-2500",
+            "archiveName": "ECO1500-2500_page-0001.jpg"
+          },
+          {
             "itemName": "Distribuidor",
-            "archiveName": "distribuidor.webp"
+            "archiveName": "ECO1500-2500_page-0004.jpg"
           },
           {
             "itemName": "Ligação das Conexões",
-            "archiveName": "ligacaodasconexoes.webp"
+            "archiveName": "ECO1500-2500_page-0006.jpg"
           }
         ]
       },
@@ -1065,8 +1886,16 @@
         "modelName": "ECO 2500-2900",
         "items": [
           {
-            "itemName": "ECO 2500-2900 AUTOMATICO",
-            "archiveName": "eco25002900auto.webp"
+            "itemName": "ECO 2500-2900 AUTOMATICO -01",
+            "archiveName": "ECO-2500 -2900 AUTOMATICA_page-0001.jpg"
+          },
+          {
+            "itemName": "ECO 2500-2900 AUTOMATICO -02",
+            "archiveName": "ECO-2500 -2900 AUTOMATICA_page-0003.jpg"
+          },
+          {
+            "itemName": "ECO 2500-2900 AUTOMATICO -03",
+            "archiveName": "ECO-2500 -2900 AUTOMATICA_page-0004.jpg"
           }
         ]
       }

@@ -16,7 +16,7 @@ const FeedFeaturedItem = () => {
   };
 
   const handleAddToCart = () => {
-    console.log("handleAddToCart chamado");
+    ("handleAddToCart chamado");
 
     if (!inputValue || !modelValue) {
       return;

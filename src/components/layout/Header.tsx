@@ -34,6 +34,7 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 
+
 declare const window: any;
 const servicos = [
   /* { name: "Crossdocking", href: "/crossdocking" }, */
@@ -48,8 +49,8 @@ export default function Header() {
     logoAlt: "Carlev",
     redeSocial: {
       facebook: "https://www.facebook.com/",
-      linkedIn: "https://br.linkedin.com/company/",
-      instagram: "https://www.instagram.com/",
+      linkedIn: "https://br.linkedin.com/in/carlev-assist%C3%AAncia-t%C3%A9cnica-69a0732aa",
+      instagram: "https://www.instagram.com/carlevassistencia/",
       whatsapp:
         "https://api.whatsapp.com/send/?phone=5519997093646&text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento&type=phone_number&app_absent=0",
     },
@@ -181,6 +182,8 @@ export default function Header() {
                                 key={item.name}
                                 href={`${item.href}`}
                                 className="cursor-pointer tracking-wider px-3 py-7 font-medium group-hover:text-brand-200 text-brand-100 transition duration-500 relative"
+                         
+                                
                               >
                                 {item.name}
                                 <span className="inline-block -mb-1">

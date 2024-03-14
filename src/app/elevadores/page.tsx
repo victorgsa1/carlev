@@ -3,7 +3,22 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
 
-const modelos = ["hl4000", "hl4000p"];
+const rootFontStyle = {
+  fontSize: '30px'
+};
+
+
+const modelos = [
+  "hl4000", 
+  "hl4000p",
+  "s3000mid",
+  "sl-3500",
+  "ssl-3100",
+  "ssl-3200",
+  "ssl-3500",
+  "ssl-3500p",
+  "ssl-5000"
+];
 export default function Page() {
   return (
     <main className="mt-20">
@@ -31,14 +46,9 @@ export default function Page() {
                 as={`/elevadores/${modelo}`}
               >
                 <div className="flex flex-row bg-zinc-100 rounded-md shadow-lg gap-8 p-2 w-full">
-                  <div className="flex bg-zinc-50">
-                    <img
-                      src={`https://placehold.co/600x400/F4F4F5/000?text=${modelo.toUpperCase()}&font=poppinstext=`}
-                      width={300}
-                      height={300}
-                      alt="Elevadores"
-                    />
-                  </div>
+    
+                  <div style={rootFontStyle} className="ml-5 mt-5 mb-5"> <h2 >{modelo.toUpperCase()}</h2> </div>
+                  
                   {/* <div className="flex flex-col justify-center">
                     <h1 className="text-4xl font-medium uppercase">{modelo}</h1>
                   </div> */}

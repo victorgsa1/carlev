@@ -21,8 +21,8 @@ type BalanceadoresDatabase = {
 const db: BalanceadoresDatabase = require("@/db.json");
 
 export default function Page({ params }: { params: { modelo: string } }) {
-  const { modelo } = params;
-  const { cart, addToCart } = useCart();
+  const {modelo} = params;
+  const {cart, addToCart } = useCart();
   const [inputValue, setInputValue] = useState<string>("");
   const [modelValue, setModelValue] = useState<string>("");
 

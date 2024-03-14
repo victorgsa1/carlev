@@ -169,7 +169,8 @@ const Footer = () => {
                   </a>
                   {
                     <a
-                      href="https://br.linkedin.com/company/"
+                      href="https://br.linkedin.com/company
+                      /"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-3 bg-brand-100 rounded-full text-white hover:-translate-y-1 transition duration-500"

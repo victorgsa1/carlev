@@ -36,12 +36,12 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({
         });
       }
     }
-  }, []);
+  }, [cart.length]);
 
   // Atualiza o localStorage sempre que houver uma alteração no carrinho
-  /*   useEffect(() => {
+  useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
-  }, [cart]); */
+  }, [cart]);
 
   const addToCart = (itemToAdd: CartItem) => {
     setCart((prevCart) => {

@@ -3,7 +3,23 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
 
-const modelos = ["stc-210k", "stc-230", "stc-340p", "stc-540"];
+
+const rootFontStyle = {
+  fontSize: '30px'
+};
+
+const modelos = [
+  "acessorios",
+  "stc-210k",
+  "stc-230", 
+  "stc-300", 
+  "stc-340p", 
+  "stc-210", 
+  "stc-540",
+  "stc-1000",
+  "stc-5345",
+];
+
 export default function Page() {
   return (
     <main className="mt-20">
@@ -31,14 +47,9 @@ export default function Page() {
                 as={`/desmontadora/${modelo}`}
               >
                 <div className="flex flex-row bg-zinc-100 rounded-md shadow-lg gap-8 p-2 w-full">
-                  <div className="flex bg-zinc-50">
-                    <img
-                      src={`https://placehold.co/600x400/F4F4F5/000?text=${modelo.toUpperCase()}&font=poppinstext=`}
-                      width={300}
-                      height={300}
-                      alt="Desmontadora"
-                    />
-                  </div>
+      
+                  <div style={rootFontStyle} className="ml-5 mt-5 mb-5"> <h2 >{modelo.toUpperCase()}</h2> </div>
+            
                   {/* <div className="flex flex-col justify-center">
                     <h1 className="text-4xl font-medium uppercase">{modelo}</h1>
                   </div> */}

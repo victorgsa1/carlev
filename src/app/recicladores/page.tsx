@@ -2,6 +2,10 @@ import FeedModelList from "@/components/common/Feed/FeedModelList";
 import Image from "next/image";
 import Link from "next/link";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
+const rootFontStyle = {
+  fontSize: '30px'
+};
+
 
 const modelos = ["eco1500-2500", "eco2500-2900"];
 export default function Page() {
@@ -31,14 +35,9 @@ export default function Page() {
                 as={`/recicladores/${modelo}`}
               >
                 <div className="flex flex-row bg-zinc-100 rounded-md shadow-lg gap-8 p-2 w-full">
-                  <div className="flex bg-zinc-50">
-                    <img
-                      src={`https://placehold.co/600x400/F4F4F5/000?text=${modelo.toUpperCase()}&font=poppinstext=`}
-                      width={300}
-                      height={300}
-                      alt="Recicladores"
-                    />
-                  </div>
+
+                  <div style={rootFontStyle} className="ml-5 mt-5 mb-5"> <h2 >{modelo.toUpperCase()}</h2> </div>
+
                   {/* 
                   <div className="flex flex-col justify-center">
                     <h1 className="text-4xl font-medium uppercase">{modelo}</h1>
